@@ -1,12 +1,12 @@
-import react from "react"
+import React from "react";
 
-import navbar from './Navbar'
+import Navbar from "./Navbar";
 
-function Header () {
-    return(
-        <header className="fixed-header">
-            <Navbar/>
-        </header>
-    )
+function Header() {
+  return (
+    <header className="fixed-header">
+      <Navbar />
+    </header>
+  );
 }
-export default Header
+export default Header;
