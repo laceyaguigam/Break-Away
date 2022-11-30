@@ -1,20 +1,20 @@
 import react from "react"
 
-function navbar () {
+function Navbar () {
     return(
         <div className="header">
         <div>
             <ul>
-                <li>
+                <li className="navbar-list-item">
                     <a href="link-1">Link 1</a>
                 </li>
-                <li>
+                <li className="navbar-list-item">
                     <a href="link-2">Link 2</a>
                 </li>
-                <li>
+                <li className="navbar-list-item">
                     <a href="link-3">Link 3</a>
                 </li>
-                <li>
+                <li className="navbar-list-item">
                     <a href="link-4">Link 4</a>
                 </li>
             </ul>
@@ -22,4 +22,4 @@ function navbar () {
         </div>
     )
 }
-export default navbar
+export default Navbar
