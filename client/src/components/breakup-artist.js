@@ -10,7 +10,13 @@ import img6 from ''
 
 function breakupArtist (){
     return (
-
+       <div class="card">
+            <img src={img1} alt=""/>
+            <h1>(insert name)</h1>
+            <p class=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+       </div>
 
     )
 }
