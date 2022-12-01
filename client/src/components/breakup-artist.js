@@ -16,7 +16,50 @@ function breakupArtist (){
             <p class=" ">(insert text)</p>
             <p> (more text)</p>
             <p> <button>(select or pay here)</button></p>
-       </div>
+      
+
+        
+            <img src={img1} alt=""/>
+            <h1>(insert name)</h1>
+            <p class=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+       
+
+        
+            <img src={img1} alt=""/>
+            <h1>(insert name)</h1>
+            <p class=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+        
+
+        
+            <img src={img1} alt=""/>
+            <h1>(insert name)</h1>
+            <p class=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+       
+
+        
+            <img src={img1} alt=""/>
+            <h1>(insert name)</h1>
+            <p class=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+       
+
+        
+        <div>
+            <img src="{img1}" alt />
+            <h1>(insert name)</h1>
+            <p className=" ">(insert text)</p>
+            <p> (more text)</p>
+            <p> <button>(select or pay here)</button></p>
+</div>
+
+        </div>
 
     )
 }
