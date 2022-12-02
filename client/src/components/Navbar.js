@@ -1,25 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="header">
-      <div>
-        <ul>
-          <li className="navbar-list-item">
-            <a href="link-1">Link 1</a>
-          </li>
-          <li className="navbar-list-item">
-            <a href="link-2">Link 2</a>
-          </li>
-          <li className="navbar-list-item">
-            <a href="link-3">Link 3</a>
-          </li>
-          <li className="navbar-list-item">
-            <a href="link-4">Link 4</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <header className="fixed-header">
+      <ul className="navbar-list-item">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="breakup-artists">Breakup Artists</Link>
+        </li>
+        <li>
+          <Link to="pricing">Pricing</Link>
+        </li>
+        <li>
+          <Link to="hire">Hire</Link>
+        </li>
+      </ul>
+      <h1 className="fixed-site-title">Break Away</h1>
+    </header>
   );
 }
 export default Navbar;

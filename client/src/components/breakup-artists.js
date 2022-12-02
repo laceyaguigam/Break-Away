@@ -6,28 +6,28 @@ import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
-function BreakupArtist() {
+function BreakupArtists() {
   return (
     <div>
       <div className="card">
         <img className="alex-img breakupartist-img" src={img1} alt="" />
         <h2 className="breakupartist-title">Alex</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
 
       <div className="card">
         <img className="alicia-img breakupartist-img" src={img2} alt="" />
         <h2 className="breakupartist-title">Alicia</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
 
       <div className="card">
         <img className="cassie-img breakupartist-img" src={img3} alt="" />
         <h2 className="breakupartist-title">Cassie</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
 
       <br></br>
@@ -36,23 +36,23 @@ function BreakupArtist() {
         <img className="joe-img breakupartist-img" src={img4} alt="" />
         <h2 className="breakupartist-title">Joe</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
 
       <div className="card">
         <img className="kyle-img breakupartist-img" src={img5} alt="" />
         <h2 className="breakupartist-title">Kyle</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
 
       <div className="card">
         <img className="sarah-img breakupartist-img" src={img6} alt="" />
         <h2 className="breakupartist-title">Sarah</h2>
         <p className="breakupartist-description">(insert text)</p>
-          <button>Hire</button>
+        <button>Hire</button>
       </div>
     </div>
   );
 }
-export default BreakupArtist;
+export default BreakupArtists;
