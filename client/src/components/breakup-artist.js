@@ -6,75 +6,53 @@ import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
-function breakupArtist() {
+function BreakupArtist() {
   return (
     <div>
       <div className="card">
-        <img src={img1} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="alex-img breakupartist-img" src={img1} alt="" />
+        <h2 className="breakupartist-title">Alex</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img src={img2} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="alicia-img breakupartist-img" src={img2} alt="" />
+        <h2 className="breakupartist-title">Alicia</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img src={img3} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="cassie-img breakupartist-img" src={img3} alt="" />
+        <h2 className="breakupartist-title">Cassie</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
+      </div>
+
+      <br></br>
+
+      <div className="card">
+        <img className="joe-img breakupartist-img" src={img4} alt="" />
+        <h2 className="breakupartist-title">Joe</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img src={img4} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="kyle-img breakupartist-img" src={img5} alt="" />
+        <h2 className="breakupartist-title">Kyle</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img src={img5} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
-      </div>
-
-      <div className="card">
-        <img src={img6} alt="" />
-        <h1>(insert name)</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="sarah-img breakupartist-img" src={img6} alt="" />
+        <h2 className="breakupartist-title">Sarah</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
     </div>
   );
 }
-export default breakupArtist;
+export default BreakupArtist;
