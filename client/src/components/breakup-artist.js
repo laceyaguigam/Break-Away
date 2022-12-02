@@ -11,70 +11,46 @@ function BreakupArtist() {
     <div>
       <div className="card">
         <img className="alex-img breakupartist-img" src={img1} alt="" />
-        <h1>Alex</h1>
+        <h2 className="breakupartist-title">Alex</h2>
         <p className="breakupartist-description">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img className="alicia-img" src={img2} alt="" />
-        <h1>Alicia</h1>
+        <img className="alicia-img breakupartist-img" src={img2} alt="" />
+        <h2 className="breakupartist-title">Alicia</h2>
         <p className="breakupartist-description">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img className="cassie-img" src={img3} alt="" />
-        <h1>Cassie</h1>
+        <img className="cassie-img breakupartist-img" src={img3} alt="" />
+        <h2 className="breakupartist-title">Cassie</h2>
         <p className="breakupartist-description">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+          <button>Hire</button>
       </div>
-      
+
       <br></br>
 
       <div className="card">
-        <img className="joe-img" src={img4} alt="" />
-        <h1>Joe</h1>
+        <img className="joe-img breakupartist-img" src={img4} alt="" />
+        <h2 className="breakupartist-title">Joe</h2>
         <p className="breakupartist-description">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img className="kyle-img" src={img5} alt="" />
-        <h1>Kyle</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="kyle-img breakupartist-img" src={img5} alt="" />
+        <h2 className="breakupartist-title">Kyle</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
 
       <div className="card">
-        <img className="sarah-img" src={img6} alt="" />
-        <h1>Sarah</h1>
-        <p className=" ">(insert text)</p>
-        <p> (more text)</p>
-        <p>
-          {" "}
-          <button>(select or pay here)</button>
-        </p>
+        <img className="sarah-img breakupartist-img" src={img6} alt="" />
+        <h2 className="breakupartist-title">Sarah</h2>
+        <p className="breakupartist-description">(insert text)</p>
+          <button>Hire</button>
       </div>
     </div>
   );
