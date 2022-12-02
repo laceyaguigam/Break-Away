@@ -9,6 +9,15 @@ background: linear-gradient(90deg, rgba(205,19,61,1) 0%, rgba(189,129,128,1) 35%
   color: black;
 }
 
+/* Breakup Artists */
+.breakupartist-img {
+
+}
+
+.breakupartist-description {
+  
+}
+
 /* Automatic React CSS */
 .App {
   text-align: center;
