@@ -1,11 +1,12 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import Header from "./components/header";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
-import HomePage from "./components/HomePage";
-import ProfilePage from "./components/ProfilePage";
-import BreakupArtists from "./components/breakup-artists";
+// import HomePage from "./components/HomePage";
+// import ProfilePage from "./components/ProfilePage";
+import BreakupArtists from "./components/BreakupArtists";
+// import Pricing from "./components/pricing";
+// import Reviews from "./components/reviews"
 
 function App() {
   return (
@@ -14,9 +15,12 @@ function App() {
         <Navbar />
         <div className="flex-grow">
           <Switch>
-            <Route path="/homepage" element={<HomePage />} />
-            <Route path="/profilepage" element={<ProfilePage />} />
-            <Route path="/breakupartists" element={<BreakupArtists />} />
+            {/* <Route path="/homepage" component={HomePage} /> */}
+            {/* <Route path="/profilepage" component={ProfilePage} /> */}
+            <Route path="/breakupartists" component={BreakupArtists} />
+            {/* <Route path="/pricing" component={Princing} /> */}
+            {/* <Route path="/reviews" component={Reviews} /> */}
+            {/* <Route path="*" element={<HomePage} /> */}
           </Switch>
         </div>
         <Footer />

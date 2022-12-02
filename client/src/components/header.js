@@ -12,6 +12,6 @@ function Header() {
 }
 export default Header;
 
-//currently not being called anywhere but header is included in the Navbar
+//currently not being called anywhere but I copied the header contents and included it in Navbar.js
 
 //could this be a hero section maybe? wireframe shows a hero div

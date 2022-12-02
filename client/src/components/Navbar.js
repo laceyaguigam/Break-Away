@@ -6,7 +6,7 @@ function Navbar() {
     <header className="fixed-header">
       <ul className="navbar-list-item">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="home">Home</Link>
         </li>
         <li>
           <Link to="breakup-artists">Breakup Artists</Link>
@@ -15,7 +15,7 @@ function Navbar() {
           <Link to="pricing">Pricing</Link>
         </li>
         <li>
-          <Link to="hire">Hire</Link>
+          <Link to="reviews">Reviews</Link>
         </li>
       </ul>
       <h1 className="fixed-site-title">Break Away</h1>
