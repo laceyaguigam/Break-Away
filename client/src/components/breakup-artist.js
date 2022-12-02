@@ -41,6 +41,8 @@ function BreakupArtist() {
           <button>(select or pay here)</button>
         </p>
       </div>
+      
+      <br></br>
 
       <div className="card">
         <img className="joe-img" src={img4} alt="" />
