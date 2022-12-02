@@ -9,7 +9,7 @@ function Navbar() {
           <Link to="home">Home</Link>
         </li>
         <li>
-          <Link to="breakup-artists">Breakup Artists</Link>
+          <Link to="breakupartists">Breakup Artists</Link>
         </li>
         <li>
           <Link to="pricing">Pricing</Link>
