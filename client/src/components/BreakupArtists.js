@@ -18,12 +18,7 @@ function BreakupArtists() {
           <img src={img1} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Alex</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
@@ -32,12 +27,7 @@ function BreakupArtists() {
           <img src={img2} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Alicia</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
@@ -46,12 +36,7 @@ function BreakupArtists() {
           <img src={img3} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Cassie</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
@@ -63,12 +48,7 @@ function BreakupArtists() {
           <img src={img4} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Joe</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
@@ -77,12 +57,7 @@ function BreakupArtists() {
           <img src={img5} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Kyle</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
@@ -91,12 +66,7 @@ function BreakupArtists() {
           <img src={img6} alt="" />
           <div class="artist-bio">
             <h3 class="artist-name">Sarah</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              architecto aspernatur iste magnam eum, cum harum quod distinctio
-              dicta laboriosam recusandae maiores hic veniam vero consequatur
-              doloremque corrupti perspiciatis debitis!
-            </p>
+            <p>Stuff goes here!</p>
             <button>Hire</button>
           </div>
         </article>
