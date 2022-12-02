@@ -38,7 +38,13 @@ function BreakupArtists() {
   <p><button>Hire</button></p>
 </div>
 
-
+<div className="card">
+  <img src={img6} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
+  <h1>Sarah</h1>
+  <p className="title">(insert info)</p>
+  <p>(insert info)</p>
+  <p><button>Hire</button></p>
+</div>
 
 
 
@@ -52,3 +58,4 @@ function BreakupArtists() {
 
 
    
+
