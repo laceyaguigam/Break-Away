@@ -7,7 +7,7 @@ function HomePage() {
         <header className="fixed-header">
             <Header />
         </header>
-        
+
     )
 }
 export default HomePage;
