@@ -1,71 +1,34 @@
-# Getting Started with Create React App
+# Break Away
+![screenshot of app](/src/assets/images/react-portfolio-SS.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+In China, there is a long tradition of hiring professional mourners. These professionals ensure that the departed loved one is grieved with due solemnity. In the U.S. today, we often turn to professionals to carry out weddings or engagements, but we have no professionals to turn to when it’s time to end a relationship. We all look for new relationships online, but there’s no app to help us end relationships we already have. 
 
-## Available Scripts
+Enter ‘Break Away’. Do you want the breakup to reflect your respect for your soon-to-be ex? Let the professionals at Away make sure it’s flawless. Drop a bundle on singers, dancers, flowers, gourmet treats, a spa weekend. Do you want the breakup to convey a sense of rage, betrayal, and disdain? They can do that too. Do you just want to take a break without closing the door forever? Only professionals can say, ‘Don’t call me. I’ll call you.’ without hurting anyone’s feelings. Away can send a quick notification to their facebook, or send a mariachi band to their doorstep. It’s your call. Simply place your order and 'Break Away.'   
 
-In the project directory, you can run:
+This MERN stack application provides functionality for Break Away users. 
 
-### `npm start`
+## Deployed app
+Please explore [our project here](link). 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Github
+You can find the [GitHub Repo here](https://github.com/laceyaguigam/Break-Away).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instructions
+When users open the app, they can create an account or log in. Logged-in users . ...
 
-### `npm test`
+## Built with
+- HTML
+- CSS
+- JavaScript
+- React
+- MongoDB, Mongoose
+- GraphQL
+- Stripe payment platform
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Resources
+List some resources we used
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# save-a-date
+## Contributers
+Made with ❤️ by:
+[Lacey Aguigam](https://github.com/laceyaguigam), [Alexus Christensen](https://github.com/catherinecunningham), [Catherine Cunningham](https://github.com/catherinecunningham), [Renee Hamlin](https://github.com/rnhamlin), [Graciela Mejia](https://github.com/gmejia87), [Abigail Queen](https://github.com/Abi-Queen)
