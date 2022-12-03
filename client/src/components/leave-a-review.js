@@ -17,6 +17,7 @@ function LeaveAReview() {
             </select>
             <label classname="form-label">Review:</label><br></br>
             <input type="textarea"></input>
+            <input type="submit">Leave Review</input>
         </form>
     )
 }
