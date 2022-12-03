@@ -13,32 +13,38 @@ function BreakupArtists() {
       <div class="flex-row">
         <h2 class="section-title">Meet The Breakup Artists</h2>
       </div>
-      
-  <div className="card">
-  <img src={img1} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
-  <h1>Alex</h1>
-  <p className="title">(insert info)</p>
-  <p>(insert info)</p>
-  <p><button>Hire</button></p>
+  
+  <div className="card" class="row">
+    <div class="column">
+      <img src={img1} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
+      <h1>Alex</h1>
+      <p className="title">(insert info)</p>
+      <p>(insert info)</p>
+      <p><button>Hire</button></p>
+    </div>
+
+
+<div className="card">
+  <div class="column">
+    <img src={img2} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
+    <h1>Alicia</h1>
+    <p className="title">(insert info)</p>
+    <p>(insert info)</p>
+    <p><button>Hire</button></p>
+</div>
 </div>
 
 <div className="card">
-  <img src={img2} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
-  <h1>Alicia</h1>
-  <p className="title">(insert info)</p>
-  <p>(insert info)</p>
-  <p><button>Hire</button></p>
+  <div class="column">
+    <img src={img3} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
+    <h1>Cassie</h1>
+    <p className="title">(insert info)</p>
+    <p>(insert info)</p>
+    <p><button>Hire</button></p>
+</div>
 </div>
 
-<div className="card">
-  <img src={img3} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
-  <h1>Cassie</h1>
-  <p className="title">(insert info)</p>
-  <p>(insert info)</p>
-  <p><button>Hire</button></p>
-</div>
-
-<div className="card">
+<div className="card" class="row">
   <img src={img4} alt="photograph of Sarah the breakup artist" style={{width: '20%'}} />
   <h1>Joe</h1>
   <p className="title">(insert info)</p>
@@ -61,7 +67,7 @@ function BreakupArtists() {
   <p>(insert info)</p>
   <p><button>Hire</button></p>
 </div>
-
+</div>
 </section>
       );
       }
