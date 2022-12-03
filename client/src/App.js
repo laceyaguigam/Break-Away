@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, } from "react-router-dom";
 import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -11,9 +12,10 @@ function App() {
         <Nav />
         {/* </header> */}
         <div>
-          <Routes></Routes>
+          stuff
+          {/* <Routes></Routes> */}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
