@@ -16,27 +16,27 @@ function BreakupArtists() {
   //onClick function for hire buttons to choose object from ArtistList array??
   const hireAlex = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
   const hireAlicia = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
   const hireCassie = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
   const hireJoe = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
   const hireKyle = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
   const hireSarah = (event) => {
     const [name] = useState()
-    event.target.value = ArtistList
+    event.target.value = ArtistList.name
   }
 
   return (
@@ -57,7 +57,7 @@ function BreakupArtists() {
           <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-            <button onClick={hireAlex()} id="hireAlex">Hire</button>
+            <button onClick={hireAlex(Alex)} id="hireAlex">Hire</button>
           </p>
         </div>
 
@@ -71,7 +71,7 @@ function BreakupArtists() {
           <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-          <button onClick={hireAlicia()} id="hireAlicia">Hire</button>
+          <button onClick={hireAlicia(Alicia)} id="hireAlicia">Hire</button>
           </p>
         </div>
 
@@ -85,7 +85,7 @@ function BreakupArtists() {
           <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-          <button onClick={hireCassie()} id="hireCassie">Hire</button>
+          <button onClick={hireCassie(Cassie)} id="hireCassie">Hire</button>
           </p>
         </div>
 
@@ -100,7 +100,7 @@ function BreakupArtists() {
             <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-            <button onClick={hireJoe()} id="hireJoe">Hire</button>
+            <button onClick={hireJoe(Joe)} id="hireJoe">Hire</button>
             </p>
           </div>
 
@@ -114,7 +114,7 @@ function BreakupArtists() {
             <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-            <button onClick={hireKyle()} id="hireKyle">Hire</button>
+            <button onClick={hireKyle(Kyle)} id="hireKyle">Hire</button>
             </p>
           </div>
 
@@ -128,7 +128,7 @@ function BreakupArtists() {
             <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-            <button onClick={hireSarah()} id="hireSarah">Hire</button>
+            <button onClick={hireSarah(Sarah)} id="hireSarah">Hire</button>
             </p>
           </div>
         </div>
