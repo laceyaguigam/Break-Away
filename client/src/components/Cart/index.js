@@ -10,6 +10,7 @@ const Cart = () => {
       <h2>Shopping Cart</h2>
       <div>
         <CartItem
+        //props from breakupartist goes here
           item={{
             name: "Camera",
             image: "camera.jpg",

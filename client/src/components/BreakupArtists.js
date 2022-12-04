@@ -77,6 +77,11 @@ const ArtistList = ({ category }) => {
 
 // main display divs for brekaup artist profiles with hire buttons
 function BreakupArtists() {
+
+  const hireSomeone = (event) => {
+    const [ ] = useState();
+    event.target.value = useHire
+  }
   return (
     <section>
       {isCartOpen && (
@@ -94,7 +99,7 @@ function BreakupArtists() {
           <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-            <button id="hireAlex">Hire</button>
+            <button onClick={hireSomeone()} id="hireAlex">Hire</button>
           </p>
         </div>
 
