@@ -25,6 +25,7 @@
   );
   display: flex;
   justify-content: space-between;
+  padding: 0px 25px 0px 25px;
 }
 
 .fixed-site-title {
@@ -34,15 +35,11 @@
 /* fixed header ends*/
 
 /* Navbar */
-/* .navbar-list-item {
-  display: flex;
-  justify-content: space-between;
-} */
-
 ul {
   display: flex;
   list-style: none;
   gap: 20px;
+  padding: 0px 25px 0px 25px;
 }
 a {
   color: black;
@@ -54,31 +51,28 @@ a:hover {
 /* navbar ends*/
 
 /* homepage */
-section {
-  align-items: center;
-}
 /* homepage ends*/
 
-
- /* Breakup Artists */
-
-/* profile cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
-
 /* Breakup Artists */
-.artist {
-  margin: 20px;
-  flex: 1;
-}
-
-.title {
+.section-title {
+  text-align: center;
   color: grey;
   font-size: 18px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.column {
+  flex: 25%;
+  padding: 0px 25px 0px 25px;
+}
+.column img {
+  margin-top: 8px;
+  width: 30%;
 }
 
 button {
@@ -94,30 +88,9 @@ button {
   font-size: 18px;
 }
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
+button:hover {
   opacity: 0.7;
 }
-
-/* columns */
-
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* breakup style ends */
 
 /* footer */

@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -24,7 +23,7 @@ function App() {
             <Route path="*" element={HomePage} />
           </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
