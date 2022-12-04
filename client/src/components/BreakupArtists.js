@@ -45,9 +45,8 @@ function BreakupArtists() {
     </div>
     </div>
 
-<br></br>
 
-<   div className="card" class="row">
+    <div className="card" class="row">
       <div class="column">
         <img src={img4} alt="photograph of Joe the breakup artist" style={{width: '50%'}} />
         <h1>Joe</h1>
