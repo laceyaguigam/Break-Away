@@ -16,11 +16,32 @@
 
 /* Fixed header */
 .fixed-header {
+<<<<<<< HEAD
   display: flex;
   height: 150px;
   justify-content: space-between;
   padding: 20px 25px 0px 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+=======
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  padding: 20px 25px 0px 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+  
+  /* background: rgb(205, 19, 61);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 19, 61, 1) 0%,
+    rgba(189, 129, 128, 1) 35%,
+    rgba(255, 244, 243, 1) 100%
+  );
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px; */
+>>>>>>> c2c2ea5f778c53ca42bceac65e739668bc0dfea0
 }
 
 .fixed-site-title {
@@ -31,19 +52,19 @@
 /* fixed header ends*/
 
 /* Navbar */
-.fixed-header ul {
+ul {
   display: flex;
   list-style: none;
   gap: 20px;
   padding: 0px 25px 0px 25px;
 }
 
-.fixed-header a {
+.nav-bar-link {
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.fixed-header a:hover {
+.a:hover {
   color: white;
 }
 
@@ -59,7 +80,10 @@ body {
     #8c1046 88%,
     #510d3e 100%
   );
+<<<<<<< HEAD
   background-repeat: no-repeat;
+=======
+>>>>>>> c2c2ea5f778c53ca42bceac65e739668bc0dfea0
 }
 /* homepage ends*/
 
