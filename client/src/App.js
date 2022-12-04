@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 import HomePage from "./components/HomePage";
 // import ProfilePage from "./components/ProfilePage";
 import BreakupArtists from "./components/BreakupArtists";
-// import Pricing from "./components/pricing";
+import Pricing from "./components/pricing";
 import Reviews from "./components/reviews";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route path="/homepage" component={HomePage} />
             {/* <Route path="/profilepage" component={ProfilePage} /> */}
             <Route path="/breakupartists" component={BreakupArtists} />
-            {/* <Route path="/pricing" component={Princing} /> */}
+            <Route path="/pricing" component={Pricing} />
             <Route path="/reviews" component={Reviews} />
             <Route path="*" element={HomePage} />
           </Switch>

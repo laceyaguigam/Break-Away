@@ -1,5 +1,4 @@
 import React from "react";
-// import App.css from "./src/App.css"
 
 //modal variable for sign-up form
 
@@ -11,11 +10,11 @@ const SignupFormModal = (props) => {
   }
   function handleSubmit(e) {
     e.preventDefault();
-    //console.log(formState)
+    console.log("Did you press the button?");
   }
   return (
     <div className="modal" onClick={props.onClose}>
-      <div className="modal-content" onClick={e.stopPropagation()}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <h4 className="modal-title">Select a Service</h4>
         </div>
@@ -89,7 +88,7 @@ const SignupFormModal = (props) => {
           </form>
         </div>
         <div className="modal-footer">
-          <button onClick={empty} className="submit-btn">
+          <button onClick={"empty"} className="submit-btn">
             Submit
           </button>
         </div>
