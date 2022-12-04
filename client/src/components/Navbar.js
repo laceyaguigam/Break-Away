@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../assets/images/breakaway-logo.png";
 
 function Navbar() {
   return (
@@ -18,7 +19,8 @@ function Navbar() {
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>
-      <h1 className="fixed-site-title">Break Away</h1>
+      <img src={Logo} height={100} alt="Break Away" />
+      {/* <h1 className="fixed-site-title">Break Away</h1> */}
     </header>
   );
 }
