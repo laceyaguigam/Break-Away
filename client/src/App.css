@@ -48,9 +48,11 @@ ul {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.nav-bar-link:hover {
+.a:hover {
   color: white;
 }
+
+
 /* navbar ends*/
 
 /* homepage */
@@ -105,10 +107,13 @@ footer {
     rgba(189, 129, 128, 1) 35%,
     rgba(255, 244, 243, 1) 100%
   );
+  height: 75px;
 }
 
 .footer-text {
   text-align: center;
+  padding: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
 }
 /* footer ends */
