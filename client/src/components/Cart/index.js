@@ -1,5 +1,6 @@
 import React from "react";
 import CartItem from "../CartItem";
+import ArtistList from './ArtistList';
 import Auth from "../../utils/auth";
 import "./style.css";
 

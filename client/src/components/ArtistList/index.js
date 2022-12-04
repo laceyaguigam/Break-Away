@@ -185,4 +185,4 @@ function BreakupArtists() {
   );
 }
 
-export default BreakupArtists;
+export default ArtistList
