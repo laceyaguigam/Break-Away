@@ -23,6 +23,15 @@ function BreakupArtists() {
       <p><button>Hire</button></p>
     </div>
 
+      <div class="artists">
+        <article class="artist">
+          <img src={img1} alt="" />
+          <div class="artist-bio">
+            <h3 class="artist-name">Alex</h3>
+            <p>Stuff goes here!</p>
+            <button>Hire</button>
+          </div>
+        </article>
 
 <div className="card">
   <div class="column">

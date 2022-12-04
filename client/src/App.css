@@ -61,6 +61,16 @@ a:hover {
   max-width: 300px;
   margin: auto;
   text-align: center;
+/* homepage */
+section {
+  align-items: center;
+}
+/* homepage ends*/
+
+/* Breakup Artists */
+.artist {
+  margin: 20px;
+  flex: 1;
 }
 
 .title {
