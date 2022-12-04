@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header className="fixed-header">
-      <ul className="navbar-list-items">
-        <li className="nav-bar-link">
+      <ul>
+        <li>
           <Link to="homepage">Home</Link>
         </li>
-        <li className="nav-bar-link">
+        <li>
           <Link to="breakupartists">Breakup Artists</Link>
         </li>
-        <li className="nav-bar-link">
+        <li>
           <Link to="pricing">Pricing</Link>
         </li>
-        <li className="nav-bar-link">
+        <li>
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>
