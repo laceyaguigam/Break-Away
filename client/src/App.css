@@ -53,6 +53,13 @@ a:hover {
 }
 /* navbar ends*/
 
+/* homepage */
+section {
+  align-items: center;
+}
+/* homepage ends*/
+
+
  /* Breakup Artists */
 
 /* profile cards */
@@ -61,6 +68,12 @@ a:hover {
   max-width: 300px;
   margin: auto;
   text-align: center;
+}
+
+/* Breakup Artists */
+.artist {
+  margin: 20px;
+  flex: 1;
 }
 
 .title {
@@ -104,16 +117,6 @@ button:hover, a:hover {
   display: table;
   clear: both;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* breakup style ends */
 
