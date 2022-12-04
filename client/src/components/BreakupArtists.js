@@ -16,7 +16,27 @@ const ArtistList = ({ category }) => {
   const [artists] = useState([
     {
       name: 'Alex',
-      price: '10'
+      price: '50'
+    },
+    {
+      name: 'Alicia',
+      price: '60'
+    },
+    {
+      name: 'Cassie',
+      price: '70'
+    },
+    {
+      name: 'Joe',
+      price: '80'
+    },
+    {
+      name: 'Kyle',
+      price: '90'
+    },
+    {
+      name: 'Sarah',
+      price: '100'
     }
 
   ])
@@ -25,87 +45,87 @@ const ArtistList = ({ category }) => {
 function BreakupArtists() {
   return (
     <section>
-      <h2 class="section-title">Meet The Breakup Artists</h2>
-      <div class="row">
-        <div class="column">
+      <h2 className="section-title">Meet The Breakup Artists</h2>
+      <div className="row">
+        <div className="column">
           <img
             src={img1}
-            alt="photograph of Sarah the breakup artist"
+            alt="Alex the breakup artist"
             // style={{ width: "20%" }}
           />
           <h1>Alex</h1>
-          <p class="title">(insert info)</p>
+          <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
             <button id="hireAlex">Hire</button>
           </p>
         </div>
 
-        <div class="column">
+        <div className="column">
           <img
             src={img2}
-            alt="photograph of Sarah the breakup artist"
+            alt="Alicia the breakup artist"
             // style={{ width: "20%" }}
           />
           <h1>Alicia</h1>
-          <p class="title">(insert info)</p>
+          <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
             <button id="hireAlicia">Hire</button>
           </p>
         </div>
 
-        <div class="column">
+        <div className="column">
           <img
             src={img3}
-            alt="photograph of Sarah the breakup artist"
+            alt="Cassie the breakup artist"
             // style={{ width: "20%" }}
           />
           <h1>Cassie</h1>
-          <p class="title">(insert info)</p>
+          <p className="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
             <button id="hireCassie">Hire</button>
           </p>
         </div>
 
-        <div class="row">
-          <div class="column">
+        <div className="row">
+          <div className="column">
             <img
               src={img4}
-              alt="photograph of Sarah the breakup artist"
+              alt="Joe the breakup artist"
               // style={{ width: "20%" }}
             />
             <h1>Joe</h1>
-            <p class="title">(insert info)</p>
+            <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
               <button id="hireJoe">Hire</button>
             </p>
           </div>
 
-          <div class="column">
+          <div className="column">
             <img
               src={img5}
-              alt="photograph of Sarah the breakup artist"
+              alt="Kyle the breakup artist"
               // style={{ width: "20%" }}
             />
             <h1>Kyle</h1>
-            <p class="title">(insert info)</p>
+            <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
               <button hireKyle>Hire</button>
             </p>
           </div>
 
-          <div class="column">
+          <div className="column">
             <img
               src={img6}
-              alt="photograph of Sarah the breakup artist"
+              alt="Sarah the breakup artist"
               // style={{ width: "20%" }}
             />
             <h1>Sarah</h1>
-            <p class="title">(insert info)</p>
+            <p className="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
               <button hireSarah>Hire</button>
