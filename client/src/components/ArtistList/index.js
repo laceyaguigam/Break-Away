@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 // import Cart bc we want Cart to open as modal
 import Cart from './Cart'
-//how to open Cart modal, but send 'item' array data from 'hire'btn onClick to CartItem or ProductList? 
+//how to open Cart modal 
 import img1 from "../assets/images/alex.jpg";
 import img2 from "../assets/images/alicia.jpg";
 import img3 from "../assets/images/cassie.jpg";
@@ -50,7 +50,7 @@ const ArtistList = ({ name }) => {
   const selectedArtists = items.filter(item => item.name === name)
   //need to get hireBtn onClick to grab 'name', pass where?
 
-  //I don't think this is where it can hook into Cart???
+  //I don't know what to pass to Cart here...
   const toggleCart = (item, i) => {
     setSelectedArtist({ ...item, index: i })
     setIsCartOpen(!isCartOpen)
