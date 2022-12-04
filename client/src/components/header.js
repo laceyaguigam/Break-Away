@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="fixed-header">
       <Navbar />
-      <h1 className="fixed-site-title">BreakAway</h1>
+      {/* <h1 className="fixed-site-title">BreakAway</h1> */}
     </header>
   );
 }

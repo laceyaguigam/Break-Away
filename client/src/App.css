@@ -16,7 +16,9 @@
 
 /* Fixed header */
 .fixed-header {
-  background: rgb(205, 19, 61);
+  
+  
+  /* background: rgb(205, 19, 61);
   background: linear-gradient(
     90deg,
     rgba(205, 19, 61, 1) 0%,
@@ -26,7 +28,7 @@
   display: flex;
   height: 150px;
   justify-content: space-between;
-  padding: 0px 25px 0px 25px;
+  padding: 0px 25px 0px 25px; */
 }
 
 .fixed-site-title {
