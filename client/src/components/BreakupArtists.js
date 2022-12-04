@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react"
+import Cart from './Cart'
 
 import img1 from "../assets/images/alex.jpg";
 import img2 from "../assets/images/alicia.jpg";
@@ -7,8 +8,20 @@ import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
-import HireModal from './HireModal'
+//create array of brekaup artist object with name and price attributes, send to Cart
+const ArtistList = ({ category }) => {
+  const [isCartOpen, setIsCartOpen] = useState(false)
+  const [selectedArtist, setSelectedArtist] = useState()
 
+  const [artists] = useState([
+    {
+      name: 'Alex',
+      price: '10'
+    }
+
+  ])
+
+}
 function BreakupArtists() {
   return (
     <section>
