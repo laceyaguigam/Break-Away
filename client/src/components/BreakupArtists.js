@@ -1,7 +1,7 @@
 import React, { useState } from "react"
+// import Cart bc we want Cart to open as modal
 import Cart from './Cart'
-import CartItem from './CartItem'
-//how to open Cart modal, but send data for item/artist to CartItem and have THAT populate Cart?
+//how to open Cart modal, but send 'item' array data from 'hire'btn onClick to CartItem or ProductList? 
 import img1 from "../assets/images/alex.jpg";
 import img2 from "../assets/images/alicia.jpg";
 import img3 from "../assets/images/cassie.jpg";
@@ -9,8 +9,8 @@ import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
-//create array of brekaup artist object with name and price attributes, send to CartItem
-const ArtistList = ({ category }) => {
+//create array of brekaup artist objects (our products) with name and price attributes
+const ArtistList = ({ name }) => {
   const [isCartOpen, setIsCartOpen] = useState(false)
   const [selectedArtist, setSelectedArtist] = useState()
 

@@ -1,5 +1,4 @@
 import React from "react";
-import item from './BreakupArtists'
 
 const CartItem = ({ item }) => {
   return (
