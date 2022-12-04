@@ -7,6 +7,8 @@ import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
+import HireModal from './HireModal'
+
 function BreakupArtists() {
   return (
     <section>
@@ -22,7 +24,7 @@ function BreakupArtists() {
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-            <button>Hire</button>
+            <button id="hireAlex">Hire</button>
           </p>
         </div>
 
@@ -36,7 +38,7 @@ function BreakupArtists() {
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-            <button>Hire</button>
+            <button id="hireAlicia">Hire</button>
           </p>
         </div>
 
@@ -50,7 +52,7 @@ function BreakupArtists() {
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
           <p>
-            <button>Hire</button>
+            <button id="hireCassie">Hire</button>
           </p>
         </div>
 
@@ -65,7 +67,7 @@ function BreakupArtists() {
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-              <button>Hire</button>
+              <button id="hireJoe">Hire</button>
             </p>
           </div>
 
@@ -79,7 +81,7 @@ function BreakupArtists() {
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-              <button>Hire</button>
+              <button hireKyle>Hire</button>
             </p>
           </div>
 
@@ -93,7 +95,7 @@ function BreakupArtists() {
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-              <button>Hire</button>
+              <button hireSarah>Hire</button>
             </p>
           </div>
         </div>
