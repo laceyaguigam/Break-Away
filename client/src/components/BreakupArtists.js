@@ -24,9 +24,9 @@ function BreakupArtists() {
       </div>
 
 
-    <div className="card">
+      <div className="card" class="row">
       <div class="column">
-        <img src={img2} alt="photograph of Alicia the breakup artist" style={{width: '260%'}} />
+        <img src={img2} alt="photograph of Alicia the breakup artist" style={{width: '50%'}} />
         <h1>Alicia</h1>
         <p className="title">(insert info)</p>
         <p>(insert info)</p>
@@ -35,9 +35,9 @@ function BreakupArtists() {
     </div>
 
 
-    <div className="card">
+    <div className="card" class="row">
       <div class="column">
-        <img src={img3} alt="photograph of Cassie the breakup artist" style={{width: '260%'}} />
+        <img src={img3} alt="photograph of Cassie the breakup artist" style={{width: '50%'}} />
         <h1>Cassie</h1>
         <p className="title">(insert info)</p>
         <p>(insert info)</p>
@@ -47,9 +47,9 @@ function BreakupArtists() {
 
 <br></br>
 
-    <div className="card" >
-      <div class="column" class="row">
-        <img src={img4} alt="photograph of Joe the breakup artist" style={{width: '260%'}} />
+<   div className="card" class="row">
+      <div class="column">
+        <img src={img4} alt="photograph of Joe the breakup artist" style={{width: '50%'}} />
         <h1>Joe</h1>
         <p className="title">(insert info)</p>
         <p>(insert info)</p>
@@ -57,9 +57,9 @@ function BreakupArtists() {
     </div>
     </div>
 
-    <div className="card">
+    <div className="card" class="row">
       <div class="column" row="row">
-        <img src={img5} alt="photograph of Kyle the breakup artist" style={{width: '260%'}} />
+        <img src={img5} alt="photograph of Kyle the breakup artist" style={{width: '50%'}} />
         <h1>Kyle</h1>
         <p className="title">(insert info)</p>
         <p>(insert info)</p>
@@ -67,9 +67,9 @@ function BreakupArtists() {
     </div>
     </div>
 
-    <div className="card">
-      <div class="column" class="row">
-        <img src={img6} alt="photograph of Sarah the breakup artist" style={{width: '260%'}} />
+    <div className="card" class="row">
+      <div class="column">
+        <img src={img6} alt="photograph of Sarah the breakup artist" style={{width: '50%'}} />
         <h1>Sarah</h1>
         <p className="title">(insert info)</p>
         <p>(insert info)</p>
