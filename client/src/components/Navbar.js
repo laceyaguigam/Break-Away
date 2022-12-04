@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header className="fixed-header">
-      <ul className="navbar-list-item">
+      <ul>
         <li>
           <Link to="homepage">Home</Link>
         </li>
