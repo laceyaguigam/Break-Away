@@ -5,17 +5,17 @@ import Logo from "../assets/images/breakaway-logo.png";
 function Navbar() {
   return (
     <header className="fixed-header">
-      <ul className="navbar-list-item">
-        <li>
+      <ul className="navbar-list-items">
+        <li className="nav-bar-link">
           <Link to="homepage">Home</Link>
         </li>
-        <li>
+        <li className="nav-bar-link">
           <Link to="breakupartists">Breakup Artists</Link>
         </li>
-        <li>
+        <li className="nav-bar-link">
           <Link to="pricing">Pricing</Link>
         </li>
-        <li>
+        <li className="nav-bar-link">
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>

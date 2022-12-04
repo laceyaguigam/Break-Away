@@ -18,6 +18,7 @@
 /* Fixed header */
 .fixed-header {
   display: flex;
+  height: 150px;
   justify-content: space-between;
   padding: 20px 25px 0px 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -37,13 +38,17 @@ ul {
   gap: 20px;
   padding: 0px 25px 0px 25px;
 }
-a {
+
+.nav-bar-link {
   color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a:hover {
+.a:hover {
   color: white;
 }
+
+
 /* navbar ends*/
 
 /* homepage */
@@ -98,9 +103,13 @@ footer {
     rgba(189, 129, 128, 1) 35%,
     rgba(255, 244, 243, 1) 100%
   );
+  height: 75px;
 }
 
-h6 {
+.footer-text {
   text-align: center;
+  padding: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
 }
 /* footer ends */
