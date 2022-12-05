@@ -11,6 +11,8 @@ function BreakupArtists() {
   return (
     <section>
       <h2 class="section-title">Meet The Breakup Artists</h2>
+      
+      
       <div class="row">
         <div class="column">
           <img
