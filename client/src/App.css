@@ -80,6 +80,7 @@ body {
 .flex-row {
   display: flex;
   justify-content: space-around;
+  padding: 30px 0px 10px 0px;
 }
 
 .row-home {
@@ -99,8 +100,8 @@ body {
 /* Breakup Artists */
 .section-title {
   text-align: center;
-  color: grey;
-  font-size: 18px;
+  color: black;
+  padding: 30px 0px 10px 0px;
 }
 
 .row-breakup {
@@ -138,6 +139,46 @@ button:hover {
   opacity: 0.7;
 }
 /* breakup style ends */
+
+/* Pricing starts */
+.pricing-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  color: rgb(2, 2, 2);
+}
+
+p {
+  text-align: center;
+}
+
+.pricing-body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 30px 45px 10px 45px;
+}
+
+.columns {
+  text-align: center;
+  flex: 5%;
+  padding: 0px 25px 0px 25px;
+}
+
+.price ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0px 25px 0px 25px;
+}
+
+.price li {
+  color: black;
+  list-style-type: none;
+}
+/* pricing ends */
 
 /* footer */
 footer {
