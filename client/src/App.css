@@ -53,6 +53,31 @@
   color: rgb(96, 0, 0);
   font-size: xx-large;
 }
+
+/* css for wave*/
+
+.custom-shape-divider-top-1670199520 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-top-1670199520 svg {
+  position: relative;
+  display: block;
+  width: calc(207% + 1.3px);
+  height: 442px;
+}
+.custom-shape-divider-top-1670199520 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+
+
 /* fixed header ends*/
 
 /* Navbar */
