@@ -15,6 +15,10 @@
 }
 
 /* Fixed header */
+.section-wrapper {
+  position: relative;
+}
+
 .fixed-header {
   
   
@@ -29,6 +33,26 @@
   height: 150px;
   justify-content: space-between;
   padding: 0px 25px 0px 25px; */
+}
+
+.custom-shape-divider-top-1670198905 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1670198905 svg {
+  position: relative;
+  display: block;
+  width: calc(207% + 1.3px);
+  height: 442px;
+}
+
+.custom-shape-divider-top-1670198905 .shape-fill {
+  fill: #FFFFFF;
 }
 
 .fixed-site-title {
