@@ -99,7 +99,7 @@ body {
 }
 .column img {
   margin-top: 8px;
-  width: 30%;
+  width: 50%;
 }
 
 button {
@@ -111,7 +111,7 @@ button {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 20%;
+  width: 50%;
   font-size: 18px;
 }
 

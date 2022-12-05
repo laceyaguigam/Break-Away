@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import img1 from "../assets/images/alex.jpg";
 import img2 from "../assets/images/alicia.jpg";
 import img3 from "../assets/images/cassie.jpg";
@@ -15,9 +16,7 @@ function BreakupArtists() {
         <div class="column">
           <img
             src={img1}
-            alt="photograph of Sarah the breakup artist"
-            // style={{ width: "20%" }}
-          />
+            alt="photograph of Sarah the breakup artist"/>
           <h1>Alex</h1>
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
@@ -29,9 +28,7 @@ function BreakupArtists() {
         <div class="column">
           <img
             src={img2}
-            alt="photograph of Sarah the breakup artist"
-            // style={{ width: "20%" }}
-          />
+            alt="photograph of Sarah the breakup artist"/>
           <h1>Alicia</h1>
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
@@ -41,10 +38,8 @@ function BreakupArtists() {
         </div>
 
         <div class="column">
-          <img
-            src={img3}
-            alt="photograph of Sarah the breakup artist"
-            // style={{ width: "20%" }}
+          <img src={img3} alt="photograph of Sarah the breakup artist"
+            
           />
           <h1>Cassie</h1>
           <p class="title">(insert info)</p>
@@ -56,11 +51,7 @@ function BreakupArtists() {
 
         <div class="row">
           <div class="column">
-            <img
-              src={img4}
-              alt="photograph of Sarah the breakup artist"
-              // style={{ width: "20%" }}
-            />
+            <img src={img4} alt="photograph of Sarah the breakup artist"/>
             <h1>Joe</h1>
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
@@ -70,11 +61,7 @@ function BreakupArtists() {
           </div>
 
           <div class="column">
-            <img
-              src={img5}
-              alt="photograph of Sarah the breakup artist"
-              // style={{ width: "20%" }}
-            />
+            <img src={img5} alt="photograph of Sarah the breakup artist"/>
             <h1>Kyle</h1>
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
@@ -84,11 +71,7 @@ function BreakupArtists() {
           </div>
 
           <div class="column">
-            <img
-              src={img6}
-              alt="photograph of Sarah the breakup artist"
-              // style={{ width: "20%" }}
-            />
+            <img  src={img6} alt="photograph of Sarah the breakup artist"/>
             <h1>Sarah</h1>
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
@@ -98,7 +81,9 @@ function BreakupArtists() {
           </div>
         </div>
       </div>
+
     </section>
+
   );
 }
 
