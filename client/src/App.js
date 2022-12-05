@@ -7,6 +7,7 @@ import HomePage from "./components/HomePage";
 import BreakupArtists from "./components/BreakupArtists";
 import Pricing from "./components/pricing";
 import Reviews from "./components/reviews";
+import Success from "./Pages/Success";
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
             <Route path="/pricing" component={Pricing} />
             <Route path="/reviews" component={Reviews} />
             <Route path="*" element={HomePage} />
+            <Route path="/success" element={<Success />} />
           </Switch>
         </div>
-        <Footer />
+      {/* <Footer /> */}
       </div>
     </Router>
   );
