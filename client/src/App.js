@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import HomePage from "./components/HomePage";
 // import ProfilePage from "./components/ProfilePage";
 import BreakupArtists from "./components/BreakupArtists";
 import Pricing from "./components/pricing";
-import Reviews from "./components/Reviews";
+import Reviews from "./components/reviews";
 import Success from "./Pages/Success";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path="/success" element={<Success />} />
           </Switch>
         </div>
-      {/* <Footer /> */}
+        {/* <Footer /> */}
       </div>
     </Router>
   );
