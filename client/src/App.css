@@ -28,26 +28,6 @@
   background-color: #fcfcfc;
 }
 
-.custom-shape-divider-top-1670198905 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1670198905 svg {
-  position: relative;
-  display: block;
-  width: calc(207% + 1.3px);
-  height: 442px;
-}
-
-.custom-shape-divider-top-1670198905 .shape-fill {
-  fill: #FFFFFF;
-}
-
 .fixed-site-title {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(96, 0, 0);
@@ -56,20 +36,24 @@
 /* fixed header ends*/
 
 /* Navbar */
-ul {
+.fixed-header ul {
   display: flex;
   list-style: none;
   gap: 20px;
   padding: 0px 25px 0px 25px;
 }
 
-.nav-bar-link {
+.fixed-header li {
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.a:hover {
+.fixed-header a:hover {
   color: white;
+}
+
+.fixed-header a:visited {
+  color: black;
 }
 
 /* navbar ends*/
