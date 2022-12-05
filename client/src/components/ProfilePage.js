@@ -10,6 +10,7 @@ import img1 from "../assets/images/alex.jpg";
 import img3 from "../assets/images/cassie.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
+import img7 from "../assets/images/breakaway-logo.png"
 
 
 function ProfilePage() {
@@ -17,7 +18,12 @@ function ProfilePage() {
     
     <Container>
       <Row>
-        <Col>will have logo center top, then nav bar </Col>
+        <Col>
+        <img src={img7} alt="break away logo" class="logo"/>
+        
+        
+        
+        will have logo center top, then nav bar </Col>
         <Col>My profile (center)
         under profile pic in circle
         then line under
@@ -78,10 +84,6 @@ function ProfilePage() {
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>  
-
-
-
-
         </Col>
         
       </Row>
