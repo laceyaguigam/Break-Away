@@ -9,94 +9,97 @@ import img6 from "../assets/images/sarah.jpg";
 
 function BreakupArtists() {
   return (
-    <section id="your-breakup-artists">
-      <div class="flex-row">
-        <h2 class="section-title">Meet The Breakup Artists</h2>
+    <section>
+      <h2 class="section-title">Meet The Breakup Artists</h2>
+      <div class="row">
+        <div class="column">
+          <img
+            src={img1}
+            alt="photograph of Sarah the breakup artist"
+            // style={{ width: "20%" }}
+          />
+          <h1>Alex</h1>
+          <p class="title">(insert info)</p>
+          <p>(insert info)</p>
+          <p>
+            <button>Hire</button>
+          </p>
+        </div>
+
+        <div class="column">
+          <img
+            src={img2}
+            alt="photograph of Sarah the breakup artist"
+            // style={{ width: "20%" }}
+          />
+          <h1>Alicia</h1>
+          <p class="title">(insert info)</p>
+          <p>(insert info)</p>
+          <p>
+            <button>Hire</button>
+          </p>
+        </div>
+
+        <div class="column">
+          <img
+            src={img3}
+            alt="photograph of Sarah the breakup artist"
+            // style={{ width: "20%" }}
+          />
+          <h1>Cassie</h1>
+          <p class="title">(insert info)</p>
+          <p>(insert info)</p>
+          <p>
+            <button>Hire</button>
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img
+              src={img4}
+              alt="photograph of Sarah the breakup artist"
+              // style={{ width: "20%" }}
+            />
+            <h1>Joe</h1>
+            <p class="title">(insert info)</p>
+            <p>(insert info)</p>
+            <p>
+              <button>Hire</button>
+            </p>
+          </div>
+
+          <div class="column">
+            <img
+              src={img5}
+              alt="photograph of Sarah the breakup artist"
+              // style={{ width: "20%" }}
+            />
+            <h1>Kyle</h1>
+            <p class="title">(insert info)</p>
+            <p>(insert info)</p>
+            <p>
+              <button>Hire</button>
+            </p>
+          </div>
+
+          <div class="column">
+            <img
+              src={img6}
+              alt="photograph of Sarah the breakup artist"
+              // style={{ width: "20%" }}
+            />
+            <h1>Sarah</h1>
+            <p class="title">(insert info)</p>
+            <p>(insert info)</p>
+            <p>
+              <button>Hire</button>
+            </p>
+          </div>
+        </div>
       </div>
-  
-    <div className="card" class="row">
-      <div class="column">
-        <img src={img1} alt="photograph of Alex the breakup artist" style={{width: '50%'}} />
-        <h1>Alex</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-      </div>
-
-
-      <div className="card" class="row">
-      <div class="column">
-        <img src={img2} alt="photograph of Alicia the breakup artist" style={{width: '50%'}} />
-        <h1>Alicia</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-    </div>
-    </div>
-
-
-    <div className="card" class="row">
-      <div class="column">
-        <img src={img3} alt="photograph of Cassie the breakup artist" style={{width: '50%'}} />
-        <h1>Cassie</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-    </div>
-    </div>
-
-
-    <div className="card" class="row">
-      <div class="column">
-        <img src={img4} alt="photograph of Joe the breakup artist" style={{width: '50%'}} />
-        <h1>Joe</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-    </div>
-    </div>
-
-    <div className="card" class="row">
-      <div class="column" row="row">
-        <img src={img5} alt="photograph of Kyle the breakup artist" style={{width: '50%'}} />
-        <h1>Kyle</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-    </div>
-    </div>
-
-    <div className="card" class="row">
-      <div class="column">
-        <img src={img6} alt="photograph of Sarah the breakup artist" style={{width: '50%'}} />
-        <h1>Sarah</h1>
-        <p className="title">(insert info)</p>
-        <p>(insert info)</p>
-        <p><button>Hire</button></p>
-      </div>
-    </div>
-    </div>
-</section>
-);
+    </section>
+  );
 }
-      
-     export default BreakupArtists;
 
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-   
-
-
-
+export default BreakupArtists;
