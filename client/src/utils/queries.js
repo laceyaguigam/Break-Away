@@ -18,3 +18,6 @@ export const QUERY_CHECKOUT = gql`
     }
   }
 `;
+
+// QUERY_PRODUCTS
+// QUERY_CATEGORIES

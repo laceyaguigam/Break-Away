@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   return (
     <header className="fixed-header">
@@ -19,7 +18,7 @@ function Navbar() {
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>
-      
+
       {/* <h1 className="fixed-site-title">Break Away</h1> */}
     </header>
   );
