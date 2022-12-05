@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Header from "./components/header";
 import Footer from "./components/footer";
 import HomePage from "./components/HomePage";
 // import ProfilePage from "./components/ProfilePage";
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="main-flex">
-        <Navbar />
+        <Header />
         <div className="flex-grow">
           <Switch>
             <Route path="/homepage" component={HomePage} />
