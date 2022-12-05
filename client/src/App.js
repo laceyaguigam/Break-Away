@@ -25,7 +25,7 @@ function App() {
             <Route path="/success" element={<Success />} />
           </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
