@@ -20,19 +20,12 @@
 }
 
 .fixed-header {
-  
-  
-  /* background: rgb(205, 19, 61);
-  background: linear-gradient(
-    90deg,
-    rgba(205, 19, 61, 1) 0%,
-    rgba(189, 129, 128, 1) 35%,
-    rgba(255, 244, 243, 1) 100%
-  );
   display: flex;
   height: 150px;
   justify-content: space-between;
-  padding: 0px 25px 0px 25px; */
+  padding: 20px 25px 0px 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: white;
 }
 
 .custom-shape-divider-top-1670198905 {
@@ -56,9 +49,9 @@
 }
 
 .fixed-site-title {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
-  size: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(96, 0, 0);
+  font-size: xx-large;
 }
 /* fixed header ends*/
 
@@ -72,17 +65,27 @@ ul {
 
 .nav-bar-link {
   color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .a:hover {
   color: white;
 }
 
-
 /* navbar ends*/
 
 /* homepage */
+
+body {
+  background-color: #f4e4e4;
+  background-image: linear-gradient(
+    180deg,
+    #f4e4e4 0%,
+    #8c1046 88%,
+    #510d3e 100%
+  );
+  background-repeat: no-repeat;
+}
 /* homepage ends*/
 
 /* Breakup Artists */
@@ -127,20 +130,15 @@ button:hover {
 
 /* footer */
 footer {
-  background: rgb(205, 19, 61);
-  background: linear-gradient(
-    90deg,
-    rgba(205, 19, 61, 1) 0%,
-    rgba(189, 129, 128, 1) 35%,
-    rgba(255, 244, 243, 1) 100%
-  );
+  /* background: #8c1046; */
   height: 75px;
 }
 
 .footer-text {
   text-align: center;
   padding: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
+  color: #f4e4e4;
 }
 /* footer ends */
