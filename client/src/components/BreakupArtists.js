@@ -11,7 +11,7 @@ import img6 from "../assets/images/sarah.jpg";
 function BreakupArtists() {
   return (
     <section>
-      <h2 class="section-title">Meet The Breakup Artists</h2>
+      <h2 class="section-title">Breakup Artists</h2>
       <div class="row">
         <div class="column">
           <img
@@ -26,9 +26,7 @@ function BreakupArtists() {
         </div>
 
         <div class="column">
-          <img
-            src={img2}
-            alt="photograph of Sarah the breakup artist"/>
+          <img src={img2} alt="photograph of Sarah the breakup artist"/>
           <h1>Alicia</h1>
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
@@ -38,9 +36,7 @@ function BreakupArtists() {
         </div>
 
         <div class="column">
-          <img src={img3} alt="photograph of Sarah the breakup artist"
-            
-          />
+          <img src={img3} alt="photograph of Sarah the breakup artist"/>
           <h1>Cassie</h1>
           <p class="title">(insert info)</p>
           <p>(insert info)</p>
@@ -62,7 +58,7 @@ function BreakupArtists() {
 
           <div class="column">
             <img src={img5} alt="photograph of Sarah the breakup artist"/>
-            <h1>Kyle</h1>
+            <h1 class="h1">Kyle</h1>
             <p class="title">(insert info)</p>
             <p>(insert info)</p>
             <p>

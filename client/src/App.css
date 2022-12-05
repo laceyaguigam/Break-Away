@@ -83,9 +83,13 @@ body {
 /* Breakup Artists */
 .section-title {
   text-align: center;
-  color: grey;
-  font-size: 18px;
+  text-decoration: underline;
+  color: black;
+  font-size: 60px;
+  font-family: cursive;
 }
+
+
 
 .row {
   display: flex;
