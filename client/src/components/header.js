@@ -6,9 +6,9 @@ import Logo from "../assets/images/breakaway-logo.png";
 
 function Header() {
   return (
-    
-    <header className="fixed-header" >
+    <header className="fixed-header">
       <img src={Logo} height={100} alt="Break Away" />
+
       <ul>
         <li>
           <Link to="homepage">Home</Link>
@@ -25,7 +25,6 @@ function Header() {
       </ul>
       {/* <h1 className="fixed-site-title">BreakAway</h1> */}
     </header>
-
   );
 }
 export default Header;
