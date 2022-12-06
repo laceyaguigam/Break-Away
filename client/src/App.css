@@ -156,6 +156,7 @@ button:hover {
 .left {
   left: 0;
   background-color: black;
+  color:aliceblue
 }
 
 /* Control the right side */
@@ -171,6 +172,7 @@ button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
 }
 
 /* Style the image inside the centered container, if needed */
@@ -196,22 +198,6 @@ button:hover {
 }
 
 /* breakup style (profile page)ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
