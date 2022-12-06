@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-import img1 from "../assets/images/alex.jpg";
-import img3 from "../assets/images/cassie.jpg";
-import img5 from "../assets/images/kyle.jpg";
-import img6 from "../assets/images/sarah.jpg";
+// import img1 from "../assets/images/alex.jpg";
+// import img3 from "../assets/images/cassie.jpg";
+// import img5 from "../assets/images/kyle.jpg";
+// import img6 from "../assets/images/sarah.jpg";
 import img7 from "../assets/images/breakaway-logo.png";
 
 function ProfilePage() {

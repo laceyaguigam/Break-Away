@@ -17,16 +17,16 @@ import { TbPlaylist } from "react-icons/tb";
 function Pricing() {
   return (
     <div>
-      <div class="pricing-header">
+      <div className="pricing-header">
         <h2>Service Pricing</h2>
       </div>
       <p>
         All packages are customizable form: polite, enraged, respectful,
         sorrowful, dramatic or what ever you desire or feel.
       </p>
-      <div class="pricing-body">
-        <div class="columns">
-          <ul class="price">
+      <div className="pricing-body">
+        <div className="columns">
+          <ul className="price">
             <h4>Basic Breakup</h4>
             <li>$5.99</li>
             <li>
@@ -59,8 +59,8 @@ function Pricing() {
           </ul>
         </div>
 
-        <div class="columns">
-          <ul class="price">
+        <div className="columns">
+          <ul className="price">
             <h4>Sincere Farewell</h4>
             <li>$29.99</li>
             <li>
@@ -93,8 +93,8 @@ function Pricing() {
           </ul>
         </div>
 
-        <div class="columns">
-          <ul class="price">
+        <div className="columns">
+          <ul className="price">
             <h4>Epic Sendoff</h4>
             <li>up to $1,000</li>
             <li>

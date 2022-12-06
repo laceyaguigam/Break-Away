@@ -9,7 +9,7 @@ import img6 from "../assets/images/sarah.jpg";
 
 function BreakupArtists() {
   return (
-    <section>
+    <div>
       <h2 class="section-title">Meet The Breakup Artists</h2>
       <div class="row-breakup">
         <div class="column-breakup">
@@ -96,7 +96,7 @@ function BreakupArtists() {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
