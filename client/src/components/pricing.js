@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
-
+import addToCart from './ProductItem/index.js'
 //modal variable for sign-up form
 
 //BTN NEEDS COMMAND TO SUBMIT FORM
@@ -28,8 +28,8 @@ function Pricing() {
         <div className="columns">
           <ul className="price">
             <h4>Basic Breakup</h4>
-            <button>Add to cart</button>
             <li>$5.99</li>
+            <button onClick={addToCart(product.basic)} id="basic">Add to cart</button>
             <li>
               <BiRightArrow />
               Simple no physical contact.
@@ -64,6 +64,7 @@ function Pricing() {
           <ul className="price">
             <h4>Sincere Farewell</h4>
             <li>$29.99</li>
+            <button onClick={addToCart(product.sincere)} id="sincere">Add to cart</button>
             <li>
               <BiRightArrow />
               Ship a package
@@ -98,6 +99,7 @@ function Pricing() {
           <ul className="price">
             <h4>Epic Sendoff</h4>
             <li>up to $1,000</li>
+            <button onClick={addToCart(product.epic)} id="epic">Add to cart</button>
             <li>
               <BiRightArrow />
               In-Person Delivery and/or Performance
