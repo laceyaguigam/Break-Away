@@ -155,13 +155,13 @@ button:hover {
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #111;
+  background-color: black;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: red;
+  background-color: white;
 }
 
 /* If you want the content centered horizontally and vertically */
