@@ -7,15 +7,13 @@ import RockPic from "../assets/images/aloneonrock.jpg";
 
 function HomePage() {
   return (
- 
-
-    <section>
-      <div class="flex-row">
-        <h1>Ready to break-up but don't know how?</h1>
+    <div>
+      <div className="section-title">
+        <h2>Ready to break-up but don't know how?</h2>
       </div>
       <br />
-      <div class="row-home">
-        <div class="column-home">
+      <div className="row-home">
+        <div className="column-home">
           <img
             src={BurningPicture}
             alt="placeholder text"
@@ -29,7 +27,7 @@ function HomePage() {
           </p>
         </div>
 
-        <div class="column-home">
+        <div className="column-home">
           <img src={BurnBaby} alt="placeholder text" style={{ width: "75%" }} />
           <p>
             Want to have a sense of rage, betrayal and/or disdain?
@@ -39,7 +37,7 @@ function HomePage() {
           </p>
         </div>
 
-        <div class="column-home">
+        <div className="column-home">
           <img
             src={BrokenHeart}
             alt="placeholder text"
@@ -53,7 +51,7 @@ function HomePage() {
           </p>
         </div>
 
-        <div class="column-home">
+        <div className="column-home">
           <img src={RockPic} alt="placeholder text" style={{ width: "75%" }} />
           <p>
             How ever you do want to do it, we're here for you!
@@ -63,7 +61,7 @@ function HomePage() {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
