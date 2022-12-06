@@ -1,4 +1,14 @@
 import React from "react";
+import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
+import {
+  BsFillTelephoneFill,
+  BsFillChatRightTextFill,
+  BsWhatsapp,
+} from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
+import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
+import { TbPlaylist } from "react-icons/tb";
 
 //modal variable for sign-up form
 
@@ -7,75 +17,101 @@ import React from "react";
 function Pricing() {
   return (
     <div>
-      <div class="modal-header">
-        <h4 class="modal-title">Select a Service</h4>
+      <div class="pricing-header">
+        <h2>Service Pricing</h2>
       </div>
-
-      <div class="modal-body">
+      <p>
+        All packages are customizable form: polite, enraged, respectful,
+        sorrowful, dramatic or what ever you desire or feel.
+      </p>
+      <div class="pricing-body">
         <div class="columns">
           <ul class="price">
-            <li class="header">Basic Goodbye</li>
-            <li class="grey">$5.99</li>
-            <li>Hire an Away social media message.</li>
+            <h4>Basic Breakup</h4>
+            <li>$5.99</li>
             <li>
-              Select style from: polite, enraged, respectful, sorrowful,
-              dramatic
+              <BiRightArrow />
+              Simple no physical contact.
+              <BiLeftArrow />
             </li>
-            <li>Select platform from: Facebook, Twitter, or </li>
-            <li>No customization elements.</li>
-            <li class="grey">
-              <a href="#" class="button" id="option1">
-                Select
-              </a>
+            <br />
+            <p>Some options are:</p>
+            <li>
+              <BsFillTelephoneFill />
+              Phone call
+            </li>
+            <li>
+              <MdEmail />
+              Email message
+            </li>
+            <li>
+              <BsFillChatRightTextFill />
+              Text message
+            </li>
+            <li>
+              <FaFacebookMessenger />
+              FB message
+            </li>
+            <li>
+              <BsWhatsapp />
+              Whatsapp message
             </li>
           </ul>
         </div>
 
         <div class="columns">
           <ul class="price">
-            <li class="header">Sincere Farewell</li>
-            <li class="grey">$29.99</li>
-            <li>Ship a package</li>
+            <h4>Sincere Farewell</h4>
+            <li>$29.99</li>
             <li>
-              Select style from: polite, enraged, respectful, sorrowful,
-              dramatic
+              <BiRightArrow />
+              Ship a package
+              <BiLeftArrow />
+            </li>
+            <br />
+            <p>Some options are:</p>
+            <li>
+              <GiFlowers />
+              Flowers
             </li>
             <li>
-              Contents may include some or all of: flowers, chocolates,
-              hand-written dear jane/john letter, doggy doodoo, a mixed tape of
-              sad songs, and/or a glitter bomb
+              <GiChocolateBar />
+              Chocolates
             </li>
-            <li>Customization options available.</li>
-            <li class="grey">
-              <a href="#" class="button" id="option2">
-                Select
-              </a>
+            <li>
+              <GiNotebook />
+              Hand-written dear jane/john letter
+            </li>
+            <li>
+              <FaPoop />
+              Doggy doodoo
+            </li>
+            <li>
+              <TbPlaylist />
+              Playlist of sad songs
             </li>
           </ul>
         </div>
 
         <div class="columns">
           <ul class="price">
-            <li class="header">Epic Sendoff</li>
-            <li class="grey">up to $1,000</li>
-            <li>In-Person Delivery and/or Performance</li>
+            <h4>Epic Sendoff</h4>
+            <li>up to $1,000</li>
             <li>
-              Select style from: polite, enraged, respectful, sorrowful,
-              dramatic
+              <BiRightArrow />
+              In-Person Delivery and/or Performance
+              <BiLeftArrow />
             </li>
+            <br />
+            <p>Dazzle and un-delight! Your breakup can be delivered by:</p>
+            <li>A mariachi band</li>
+            <li>An acapalla group</li>
+            <li>A Breakup Artist acting on your behalf</li>
+
+            <br />
             <li>
-              Dazzle and un-delight! Your breakup can be delivered by a mariachi
-              band, an acapalla group, an actor pretending to be your new beau,
-              and more.
-            </li>
-            <li>
-              Customization subject to limitations according to federal and
-              state law.
-            </li>
-            <li class="grey">
-              <a href="#" class="button" id="option3">
-                Sign Up
-              </a>
+              Please NOTE: Customization subject to limitations according to
+              federal and state law.
             </li>
           </ul>
         </div>
