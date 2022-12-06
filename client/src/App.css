@@ -179,6 +179,43 @@ button:hover {
   border-radius: 50%;
 }
 
+/* Breakup Artists  (profile page)*/
+
+.row-breakup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 30px 45px 10px 45px;
+}
+
+.column-breakup {
+  text-align: center;
+  flex: 5%;
+  padding: 0px 25px 0px 25px;
+}
+
+.column img {
+  margin-top: 8px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+/* breakup style (profile page)ends */
 
 
 
