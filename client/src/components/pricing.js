@@ -28,6 +28,7 @@ function Pricing() {
         <div className="columns">
           <ul className="price">
             <h4>Basic Breakup</h4>
+            <button>Add to cart</button>
             <li>$5.99</li>
             <li>
               <BiRightArrow />
