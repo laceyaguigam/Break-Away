@@ -32,7 +32,7 @@ function App() {
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
             <Route path="*" component={HomePage} />
-            <Route path="/success" element={<Success />} />
+            <Route path="/success" component={<Success />} />
           </Switch>
         </div>
         {/* <Footer /> */}
