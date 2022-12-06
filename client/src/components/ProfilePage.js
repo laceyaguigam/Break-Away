@@ -13,7 +13,7 @@ function ProfilePage() {
         <div className="centered">
           <h1>Welcome!</h1>
           <br></br>
-          <img src={img7} alt="picture of a woman named Liz" />
+          <img src={img7} alt="of a woman named Liz" />
           <h2>Liz Smith</h2>
           <p>7.4.90</p>
           <p>Sacramento, CA</p>
