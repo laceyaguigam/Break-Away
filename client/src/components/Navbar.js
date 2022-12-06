@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header className="fixed-header">
-      <ul className="navbar-list-item">
+      <ul>
         <li>
           <Link to="homepage">Home</Link>
         </li>
@@ -18,7 +18,8 @@ function Navbar() {
           <Link to="reviews">Reviews</Link>
         </li>
       </ul>
-      <h1 className="fixed-site-title">Break Away</h1>
+
+      {/* <h1 className="fixed-site-title">Break Away</h1> */}
     </header>
   );
 }

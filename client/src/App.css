@@ -15,61 +15,111 @@
 }
 
 /* Fixed header */
+.section-wrapper {
+  position: relative;
+}
+
 .fixed-header {
-  background: rgb(205, 19, 61);
-  background: linear-gradient(
-    90deg,
-    rgba(205, 19, 61, 1) 0%,
-    rgba(189, 129, 128, 1) 35%,
-    rgba(255, 244, 243, 1) 100%
-  );
   display: flex;
+  height: 120px;
   justify-content: space-between;
-  padding: 0px 25px 0px 25px;
+  padding: 20px 25px 0px 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #fcfcfc;
 }
 
 .fixed-site-title {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(96, 0, 0);
+  font-size: xx-large;
 }
+
 /* fixed header ends*/
 
-/* Navbar */
-ul {
+/* Navbar starts*/
+.fixed-header ul {
   display: flex;
   list-style: none;
   gap: 20px;
   padding: 0px 25px 0px 25px;
 }
-a {
+
+.fixed-header li {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fixed-header a:hover {
+  color: white;
+}
+
+.fixed-header a:visited {
   color: black;
 }
 
-a:hover {
-  color: white;
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* navbar ends*/
 
 /* homepage */
+body {
+  background-color: #f4e4e4;
+  background-image: linear-gradient(
+    180deg,
+    #f4e4e4 0%,
+    #8c1046 88%,
+    #510d3e 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px 10px 0px;
+}
+
+.row-home {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 30px 45px 10px 45px;
+}
+
+.column-home {
+  text-align: center;
+  flex: 25%;
+  padding: 0px 25px 0px 25px;
+}
 /* homepage ends*/
 
 /* Breakup Artists */
 .section-title {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px 10px 0px;
   text-align: center;
-  color: grey;
-  font-size: 18px;
+  color: black;
 }
 
-.row {
+.row-breakup {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
+  padding: 30px 45px 10px 45px;
 }
 
-.column {
-  flex: 25%;
+.column-breakup {
+  text-align: center;
+  flex: 5%;
   padding: 0px 25px 0px 25px;
 }
+
 .column img {
   margin-top: 8px;
   width: 30%;
@@ -84,7 +134,7 @@ button {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 20%;
+  width: 50%;
   font-size: 18px;
 }
 
@@ -93,18 +143,156 @@ button:hover {
 }
 /* breakup style ends */
 
-/* footer */
-footer {
-  background: rgb(205, 19, 61);
-  background: linear-gradient(
-    90deg,
-    rgba(205, 19, 61, 1) 0%,
-    rgba(189, 129, 128, 1) 35%,
-    rgba(255, 244, 243, 1) 100%
+/* Pricing starts */
+.pricing-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  color: rgb(2, 2, 2);
+}
+
+p {
+  text-align: center;
+}
+
+.pricing-body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 30px 45px 10px 45px;
+}
+
+.columns {
+  text-align: center;
+  flex: 5%;
+  padding: 0px 25px 0px 25px;
+}
+
+.price ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0px 25px 0px 25px;
+}
+
+.price li {
+  color: black;
+  list-style-type: none;
+}
+/* pricing ends */
+
+/* profile page  starts*/
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 5;
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: black;
+  color: aliceblue;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+  background-image: linear-gradient(
+    180deg,
+    #f4e4e4 0%,
+    #8c1046 88%,
+    #510d3e 100%
   );
 }
 
-h6 {
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Style the image inside the centered container, on left side */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* profile page-Breakup Artists starts */
+.row-breakup2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 5px 10px 5px;
+}
+
+.column-breakup2 {
+  text-align: center;
+  flex: 25%;
+  padding: 10px 25px 10px 25px;
+}
+/* profile page-Breakup Artists ends */
+/* profile page ends */
+
+/* login starts */
+.signup {
+  width: 90%;
+  padding: 50px 50px 50px 350px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.signup input[type="text"],
+select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.signup input[type="submit"] {
+  width: 70%;
+  background-color: #f1b6b6;
+  color: #510d3e;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.signup input[type="submit"]:hover {
+  background-color: rgb(200, 197, 197);
+}
+/* login ends*/
+
+/* footer */
+footer {
+  /* background: #8c1046; */
+  height: 75px;
+}
+
+.footer-text {
+  text-align: center;
+  padding: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  color: #f4e4e4;
 }
 /* footer ends */

@@ -4,9 +4,9 @@ import ArtistList from './ArtistList'
 import Cart from './Cart'
 //how to open Cart modal, but send 'item' array data from 'hire'btn onClick to CartItem or ProductList? 
 import img1 from "../assets/images/alex.jpg";
-import img2 from "../assets/images/alicia.jpg";
+// import img2 from "../assets/images/alicia.jpg";
 import img3 from "../assets/images/cassie.jpg";
-import img4 from "../assets/images/joe.jpg";
+// import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
 
@@ -73,7 +73,7 @@ function BreakupArtists() {
           <p>
           <button onClick={hireAlicia(Alicia)} id="hireAlicia">Hire</button>
           </p>
-        </div>
+        </div> */}
 
         <div className="column">
           <img
@@ -118,22 +118,22 @@ function BreakupArtists() {
             </p>
           </div>
 
-          <div className="column">
+          <div class="column">
             <img
               src={img6}
-              alt="Sarah the breakup artist"
+              alt="photograph of Sarah the breakup artist"
               // style={{ width: "20%" }}
             />
             <h1>Sarah</h1>
-            <p className="title">(insert info)</p>
+            <p class="title">(insert info)</p>
             <p>(insert info)</p>
             <p>
-            <button onClick={hireSarah(Sarah)} id="hireSarah">Hire</button>
+              <button>Hire</button>
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
