@@ -5,14 +5,14 @@ import img1 from "../assets/images/alex.jpg";
 import img3 from "../assets/images/cassie.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
-import img7 from "../assets/images/breakaway-logo.png";
+import img7 from "../assets/images/liz.jpg";
 
 function ProfilePage() {
   return (
    <div>
   <div className="split left">
     <div className="centered">
-      <img src="img_avatar2.png" alt="Avatar woman" />
+      <img src={img7} alt="picture of a woman named Liz" />
       <h2>Jane Flex</h2>
       <p>Some text.</p>
     </div>
