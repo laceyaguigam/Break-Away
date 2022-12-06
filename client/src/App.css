@@ -217,7 +217,7 @@ p {
 /* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -227,13 +227,14 @@ p {
 .centered img {
   width: 150px;
   border-radius: 50%;
+  margin: auto;
 }
 
 /* profile page-Breakup Artists starts */
 .row-breakup2 {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin: auto;
   padding: 10px 5px 10px 5px;
 }
@@ -241,8 +242,7 @@ p {
 .column-breakup2 {
   text-align: center;
   flex: 25%;
-  margin: 10px 15px 0px 15px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 25px 10px 25px;
 }
 /* profile page-Breakup Artists ends */
 /* profile page ends */
