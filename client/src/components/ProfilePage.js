@@ -30,11 +30,18 @@ function ProfilePage() {
                   style={{ width: "75%" }}
                 />
                 <h1>Alex</h1>
-                <p class="title">(insert info)</p>
-                <p>(insert info)</p>
-                <p>
-                  <button>Hire</button>
-                </p>
+                <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/>
+          <ImStarEmpty/></p>
+          <dl>
+          <p class="p1"><dt>Specialties: </dt></p>
+              <dd> -Phone Call</dd>
+                <dd>-FB Message </dd>
+                  <dd> -Flowers</dd>
+                  </dl>
               </div>
 
               <div class="column-breakup2">
@@ -44,11 +51,18 @@ function ProfilePage() {
                   style={{ width: "60%" }}
                 />
                 <h1>Cassie</h1>
-                <p class="title">(insert info)</p>
-                <p>(insert info)</p>
-                <p>
-                  <button>Hire</button>
-                </p>
+                <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/></p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Acapella</li>
+                <li>Hand-written letter </li>
+                  <li> Playlist</li>
+                    </ul> </p>
               </div>
 
               <div class="column-breakup2">
@@ -58,11 +72,20 @@ function ProfilePage() {
                   style={{ width: "60%" }}
                 />
                 <h1>Kyle</h1>
-                <p class="title">(insert info)</p>
-                <p>(insert info)</p>
-                <p>
+                <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/></p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Acapella</li>
+                <li>Chocolate </li>
+                  <li> Email</li>
+                    </ul> </p>
                   <button>Hire</button>
-                </p>
+                
               </div>
 
               <div class="column-breakup2">
@@ -72,8 +95,18 @@ function ProfilePage() {
                   style={{ width: "60%" }}
                 />
                 <h1>Sarah</h1>
-                <p class="title">(insert info)</p>
-                <p>(insert info)</p>
+                <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/></p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Flowers</li>
+                <li>Hand-written letter </li>
+                  <li> Playlist</li>
+                    </ul> </p>
                 <p>
                   <button>Hire</button>
                 </p>
