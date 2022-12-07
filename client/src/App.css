@@ -259,6 +259,7 @@ p {
 /* pricing ends */
 
 /* profile page  starts*/
+
 /* Split the screen in half */
 .split {
   height: 100%;
@@ -274,7 +275,12 @@ p {
 .left {
   left: 0;
   background-color: black;
-  color: aliceblue;
+  background-image: linear-gradient(
+    180deg,
+    #f4e4e4 0%,
+    #8c1046 88%,
+    #510d3e 100%
+  );
 }
 
 /* Control the right side */
@@ -305,6 +311,12 @@ p {
   margin: auto;
 }
 
+.centered1 {
+  font-weight: bold;
+  padding-bottom: 0%;
+  text-align: center;
+  font-size: 180%;
+}
 /* profile page-Breakup Artists starts */
 .row-breakup2 {
   display: flex;
@@ -319,7 +331,8 @@ p {
   flex: 25%;
   padding: 10px 25px 10px 25px;
 }
-/* profile page-Breakup Artists ends */
+
+
 /* profile page ends */
 
 /* login starts */

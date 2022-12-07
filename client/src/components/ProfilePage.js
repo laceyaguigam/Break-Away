@@ -16,14 +16,32 @@ function ProfilePage() {
         <div className="centered">
           <h1>Welcome!</h1>
           <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
+
+
+
           <img src={img7} alt="of a woman named Liz" />
           <h2>Liz Smith</h2>
           <p>7.4.90</p>
           <p>Sacramento, CA</p>
         </div>
       </div>
+
+
       <div className="split right">
         <div className="centered">
+          
+
+
+        <p class="centered1">Please Select your Artist </p>
+
+
           <section>
             <div class="row-breakup2">
               <div class="column-breakup2">
@@ -32,6 +50,7 @@ function ProfilePage() {
                   alt="photograph of Sarah the breakup artist"
                   style={{ width: "75%" }}
                 />
+
                 <h1>Alex</h1>
                 <p class="title">Rating: 
           <ImStarFull/>
