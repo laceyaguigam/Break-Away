@@ -27,3 +27,5 @@ const addToCart = () => {
       idbPromise('cart', 'put', { ...item, purchaseQuantity: 1 });
     }
   }
+
+export default addToCart
