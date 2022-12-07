@@ -59,6 +59,7 @@ header ul {
 
 header ul li a {
   padding: 15px 20px;
+  color: #160c34;
 }
 
 header ul li a:hover {
@@ -88,14 +89,23 @@ header img {
 .signup-login-buttons li {
   padding: 15px 20px;
   list-style: none;
+  
 }
 
 .signup-login-buttons li:hover {
   background: rgb(96, 0, 0);
-  color: #fcfcfc;
   border-radius: 10px;
   text-shadow: none;
+  color:#f4e4e4 !important; 
 }
+
+.signup-login-buttons li:visited {
+  background: rgb(96, 0, 0);
+  border-radius: 10px;
+  text-shadow: none;
+  color:#f4e4e4 !important; 
+}
+
 /* navbar ends*/
 
 /* homepage */
