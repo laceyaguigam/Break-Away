@@ -41,7 +41,12 @@ function BreakupArtists() {
             style={{ width: "60%" }}
           />
           <h3>Cassie</h3>
-          <p class="title">(insert info)</p>
+          <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/></p>
           <p>(insert info)</p>
           <p>
             <button>Hire</button>
@@ -55,7 +60,12 @@ function BreakupArtists() {
             style={{ width: "60%" }}
           />
           <h3>Kyle</h3>
-          <p class="title">(insert info)</p>
+          <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/></p>
           <p>(insert info)</p>
           <p>
             <button>Hire</button>
@@ -69,7 +79,12 @@ function BreakupArtists() {
             style={{ width: "60%" }}
           />
           <h3>Sarah</h3>
-          <p class="title">(insert info)</p>
+          <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/></p>
           <p>(insert info)</p>
           <p>
             <button>Hire</button>
