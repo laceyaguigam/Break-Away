@@ -19,26 +19,12 @@ function BreakupArtists() {
             style={{ width: "75%" }}
           />
           <h3>Alex</h3>
-          <p class="title">(insert info)</p>
+          <p class="title">Rating: </p>
           <p>(insert info)</p>
           <p>
             <button>Hire</button>
           </p>
         </div>
-
-        {/* <div class="column-breakup">
-          <img
-            src={img2}
-            alt="photograph of Sarah the breakup artist"
-            // style={{ width: "60%" }}
-          />
-          <h1>Alicia</h1>
-          <p class="title">(insert info)</p>
-          <p>(insert info)</p>
-          <p>
-            <button>Hire</button>
-          </p>
-        </div> */}
 
         <div class="column-breakup">
           <img
@@ -53,20 +39,6 @@ function BreakupArtists() {
             <button>Hire</button>
           </p>
         </div>
-
-        {/* <div class="column-breakup">
-          <img
-            src={img4}
-            alt="photograph of Sarah the breakup artist"
-            // style={{ width: "20%" }}
-          />
-          <h1>Joe</h1>
-          <p class="title">(insert info)</p>
-          <p>(insert info)</p>
-          <p>
-            <button>Hire</button>
-          </p>
-        </div> */}
 
         <div class="column-breakup">
           <img
