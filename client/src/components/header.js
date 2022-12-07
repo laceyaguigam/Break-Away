@@ -9,24 +9,36 @@ function Header() {
       <img src={Logo} height={130} alt="Break Away" />
       <ul>
         <li>
-          <Link style={{textDecoration: "none"}} to="homepage">Home</Link>
+          <Link style={{ textDecoration: "none" }} to="homepage">
+            Home
+          </Link>
         </li>
         <li>
-          <Link style={{textDecoration: "none"}} to="profilepage">Profile Page</Link>
+          <Link style={{ textDecoration: "none" }} to="profilepage">
+            Profile Page
+          </Link>
         </li>
         <li>
-          <Link style={{textDecoration: "none"}} to="breakupartists">Breakup Artists</Link>
+          <Link style={{ textDecoration: "none" }} to="breakupartists">
+            Breakup Artists
+          </Link>
         </li>
         <li>
-          <Link style={{textDecoration: "none"}} to="pricing">Pricing</Link>
+          <Link style={{ textDecoration: "none" }} to="pricing">
+            Pricing
+          </Link>
         </li>
       </ul>
       <ul className="flex-row">
         <li className="mx-1">
-          <Link style={{textDecoration: "none"}} to="signup">Signup</Link>
+          <Link style={{ textDecoration: "none" }} to="signup">
+            Signup
+          </Link>
         </li>
         <li className="mx-1">
-          <Link style={{textDecoration: "none"}} to="login">Login</Link>
+          <Link style={{ textDecoration: "none" }} to="login">
+            Login
+          </Link>
         </li>
       </ul>
     </header>
