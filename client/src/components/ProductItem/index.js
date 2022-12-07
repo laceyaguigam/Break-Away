@@ -28,4 +28,4 @@ const addToCart = () => {
     }
   }
 
-  export default ProductItem
+  export default addToCart

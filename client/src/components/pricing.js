@@ -64,7 +64,7 @@ function Pricing() {
           <ul className="price">
             <h4>Sincere Farewell</h4>
             <li>$29.99</li>
-            <button onClick={addToCart(product.sincere)} id="sincere">Add to cart</button>
+            <button onClick={addToCart({ })} id="sincere">Add to cart</button>
             <li>
               <BiRightArrow />
               Ship a package
