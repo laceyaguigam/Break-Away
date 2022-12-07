@@ -28,7 +28,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarEmpty/>
           <ImStarEmpty/></p>
-          <p>(insert info)</p>
+          <dl>
+          <p class="p1"><dt>Specialties: </dt></p>
+              <dd> -Phone Call</dd>
+                <dd>-FB Message </dd>
+                  <dd> -Flowers</dd>
+                  </dl>
           <p>
             <button>Hire</button>
           </p>
@@ -47,7 +52,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarEmpty/></p>
-          <p>(insert info)</p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Acapella</li>
+                <li>Hand-written letter </li>
+                  <li> Playlist</li>
+                    </ul> </p>
           <p>
             <button>Hire</button>
           </p>
@@ -66,7 +76,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarFull/></p>
-          <p>(insert info)</p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Acapella</li>
+                <li>Chocolate </li>
+                  <li> Email</li>
+                    </ul> </p>
           <p>
             <button>Hire</button>
           </p>
@@ -85,7 +100,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarEmpty/></p>
-          <p>(insert info)</p>
+          <p class="p1">Specialties: </p>
+           <p> <ul>
+              <li> Flowers</li>
+                <li>Hand-written letter </li>
+                  <li> Playlist</li>
+                    </ul> </p>
           <p>
             <button>Hire</button>
           </p>
