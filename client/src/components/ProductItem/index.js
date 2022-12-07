@@ -1,7 +1,7 @@
 import { useStoreContext } from '../../utils/GlobalState';
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import { idbPromise } from "../../utils/helpers";
-
+//do we need import { products } from "../pricing"
 
 const [state, dispatch] = useStoreContext();
 

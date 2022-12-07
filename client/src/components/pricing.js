@@ -9,10 +9,31 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
+import addToCart from './ProductItem'
 
 //modal variable for sign-up form
 
 //BTN NEEDS COMMAND TO SUBMIT FORM
+
+//define products array, here or in GlobalState?? as a prop? no idea syntax? need useState hook??
+const products = () => {
+  [{
+    _id: 1,
+    name: 'basic',
+    price: '5.99'
+  },
+  {
+    _id: 2, 
+    name: 'sincere',
+    price: '29.99'
+  },
+  {
+    _id: 3,
+    name: 'epic',
+    price: '1000.00'
+  }]
+}
+
 
 function Pricing() {
   return (
@@ -57,6 +78,7 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
+          <button onClick={addToCart(_id, 1)} id="basic">Add to cart</button>
         </div>
 
         <div className="columns">
@@ -91,6 +113,7 @@ function Pricing() {
               Playlist of sad songs
             </li>
           </ul>
+          <button onClick={addToCart(_id, 2)} id="sincere">Add to cart</button>
         </div>
 
         <div className="columns">
@@ -114,6 +137,7 @@ function Pricing() {
               federal and state law.
             </li>
           </ul>
+          <button onClick={addToCart(_id, 3)} id="epic">Add to cart</button>
         </div>
       </div>
     </div>
