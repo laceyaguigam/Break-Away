@@ -45,6 +45,9 @@ function ProfilePage() {
                 <dd>-FB Message </dd>
                   <dd> -Flowers</dd>
                   </dl>
+                  <p>
+                  <button>Hire</button>
+                  </p>
               </div>
 
               <div class="column-breakup2">
@@ -66,6 +69,9 @@ function ProfilePage() {
                 <dd>-Hand-written letter </dd>
                   <dd> -Playlist</dd>
                     </dl>
+                    <p>
+                  <button>Hire</button>
+                  </p>
               </div>
 
               <div class="column-breakup2">
