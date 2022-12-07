@@ -283,6 +283,15 @@ p {
   );
 }
 
+.welcome {
+  padding-bottom: 50% ;
+  font-size: 200%;
+}
+
+.a {
+  color:#000; 
+  text-decoration: none;
+}
 /* Control the right side */
 .right {
   right: 0;
@@ -295,10 +304,7 @@ p {
   );
 }
 
-.welcome {
-  padding-bottom: 50% ;
-  font-size: 200%;
-}
+
 
 
 
@@ -322,7 +328,7 @@ p {
   font-weight: bold;
   padding-bottom: 0%;
   text-align: center;
-  font-size: 180%;
+  font-size: 150%;
 }
 /* profile page-Breakup Artists starts */
 .row-breakup2 {

@@ -12,6 +12,7 @@ import {GrMapLocation} from "react-icons/gr"
 import {SlEnvolope} from "react-icons/sl"
 import {AiOutlineCalendar} from "react-icons/ai"
 import {MdAttachMoney} from "react-icons/md"
+import {MdRateReview} from "react-icons/md"
 
 function ProfilePage() {
   return (
@@ -29,30 +30,30 @@ function ProfilePage() {
           <br></br>
           <p><FaBirthdayCake/> 7.4.90</p>
           <p><GrMapLocation/>Sacramento, CA</p>
-        </div>
-      </div>
-     
+        
+      <br></br>
+     <br></br>
 
       <table>
  
  <tr>
-   <td><SlEnvolope/>Messages</td>
-   <td><AiOutlineCalendar/>Calendar</td>
+   <td><SlEnvolope/><a href="url" class="a">Messages</a></td>
+   <td><AiOutlineCalendar/><a href="url"class="a">Calendar</a></td>
  </tr>
  <tr>
-   <td><MdRateReview/> Testimonials</td>
-   <td><MdAttachMoney/>Become an Artist</td>
+   <td><MdRateReview/><a href="url"class="a">Testimonials</a></td>
+   <td><MdAttachMoney/><a href="url"class="a">Become an Artist</a></td>
  </tr>
-</table>
-      
-
+</table> 
+   </div>   
+</div>
 
       <div className="split right">
         <div className="centered">
     
         <p class="centered1">Please Select your Artist </p>
 
-          <section>
+          
             <div class="row-breakup2">
               <div class="column-breakup2">
                 <img
@@ -151,7 +152,7 @@ function ProfilePage() {
                 </p>
               </div>
             </div>
-          </section>
+          
         </div>
       </div>
     </div>
