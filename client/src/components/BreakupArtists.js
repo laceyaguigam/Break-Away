@@ -1,11 +1,14 @@
 import React from "react";
 
 import img1 from "../assets/images/alex.jpg";
-// import img2 from "../assets/images/alicia.jpg";
 import img3 from "../assets/images/cassie.jpg";
-// import img4 from "../assets/images/joe.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
+
+import {ImStarEmpty, ImStarFull} from "react-icons/im"
+
+
+
 
 function BreakupArtists() {
   return (
@@ -19,7 +22,12 @@ function BreakupArtists() {
             style={{ width: "75%" }}
           />
           <h3>Alex</h3>
-          <p class="title">Rating: </p>
+          <p class="title">Rating: 
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarFull/>
+          <ImStarEmpty/>
+          <ImStarEmpty/></p>
           <p>(insert info)</p>
           <p>
             <button>Hire</button>
