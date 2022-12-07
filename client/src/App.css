@@ -295,6 +295,13 @@ p {
   );
 }
 
+.welcome {
+  padding-bottom: 50% ;
+  font-size: 200%;
+}
+
+
+
 /* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;

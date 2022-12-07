@@ -7,40 +7,50 @@ import img6 from "../assets/images/sarah.jpg";
 import img7 from "../assets/images/liz.jpg";
 
 import {ImStarEmpty, ImStarFull} from "react-icons/im"
-
+import {FaBirthdayCake} from "react-icons/fa"
+import {GrMapLocation} from "react-icons/gr"
+import {SlEnvolope} from "react-icons/sl"
+import {AiOutlineCalendar} from "react-icons/ai"
+import {MdAttachMoney} from "react-icons/md"
 
 function ProfilePage() {
   return (
     <div>
       <div className="split left">
         <div className="centered">
-          <h1>Welcome!</h1>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <section>
+          <h1 class="welcome">Welcome Liz!</h1>
+      </section>
 
-
-
-
+        
           <img src={img7} alt="of a woman named Liz" />
+          
           <h2>Liz Smith</h2>
-          <p>7.4.90</p>
-          <p>Sacramento, CA</p>
+          <br></br>
+          <p><FaBirthdayCake/> 7.4.90</p>
+          <p><GrMapLocation/>Sacramento, CA</p>
         </div>
       </div>
+     
+
+      <table>
+ 
+ <tr>
+   <td><SlEnvolope/>Messages</td>
+   <td><AiOutlineCalendar/>Calendar</td>
+ </tr>
+ <tr>
+   <td><MdRateReview/> Testimonials</td>
+   <td><MdAttachMoney>Become an Artist</td>
+ </tr>
+</table>
+      
 
 
       <div className="split right">
         <div className="centered">
-          
-
-
+    
         <p class="centered1">Please Select your Artist </p>
-
 
           <section>
             <div class="row-breakup2">
