@@ -23,10 +23,10 @@ function Header() {
       </ul>
       <ul className="flex-row">
         <li className="mx-1">
-          <Link to="signup">Signup</Link>
+          <Link style={{textDecoration: "none"}} to="signup">Signup</Link>
         </li>
         <li className="mx-1">
-          <Link to="login">Login</Link>
+          <Link style={{textDecoration: "none"}} to="login">Login</Link>
         </li>
       </ul>
     </header>
