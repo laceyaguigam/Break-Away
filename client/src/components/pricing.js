@@ -21,21 +21,23 @@ function Pricing() {
         <h2>Service Pricing</h2>
       </div>
       <p>
-        All packages are customizable form: polite, enraged, respectful,
-        sorrowful, dramatic or what ever you desire or feel.
+        All packages are customizable for breakup style: polite, enraged,
+        respectful, sorrowful, dramatic, or anything else you desire or feel.
       </p>
       <div className="pricing-body">
         <div className="columns">
           <ul className="price">
             <h4>Basic Breakup</h4>
+            <br/>
             <li>$5.99</li>
             <li>
               <BiRightArrow />
-              Simple no physical contact.
+              Simple, no physical contact.
               <BiLeftArrow />
             </li>
             <br />
-            <p>Some options are:</p>
+            <p>Some options include:</p>
+            <br />
             <li>
               <BsFillTelephoneFill />
               Phone call
@@ -62,6 +64,7 @@ function Pricing() {
         <div className="columns">
           <ul className="price">
             <h4>Sincere Farewell</h4>
+            <br/>
             <li>$29.99</li>
             <li>
               <BiRightArrow />
@@ -69,7 +72,8 @@ function Pricing() {
               <BiLeftArrow />
             </li>
             <br />
-            <p>Some options are:</p>
+            <p>Some options include:</p>
+            <br />
             <li>
               <GiFlowers />
               Flowers
@@ -96,6 +100,7 @@ function Pricing() {
         <div className="columns">
           <ul className="price">
             <h4>Epic Sendoff</h4>
+            <br/>
             <li>up to $1,000</li>
             <li>
               <BiRightArrow />
