@@ -52,12 +52,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarEmpty/></p>
-          <p class="p1">Specialties: </p>
-           <p> <ul>
-              <li> Acapella</li>
-                <li>Hand-written letter </li>
-                  <li> Playlist</li>
-                    </ul> </p>
+          <dl>
+          <p class="p1"><dt>Specialties: </dt></p>
+              <dd> Acapella</dd>
+                <dd>Hand-written letter </dd>
+                  <dd> Playlist</dd>
+                    </dl>
           <p>
             <button>Hire</button>
           </p>
