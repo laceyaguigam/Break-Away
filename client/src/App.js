@@ -47,24 +47,26 @@ function App() {
   // }
 
   return (
-    <Router>
-      <div className="main-flex">
-        <Header />
-        <div className="flex-grow">
-          <Switch>
-            <Route path="/homepage" component={HomePage} />
-            <Route path="/profilepage" component={ProfilePage} />
-            <Route path="/breakupartists" component={BreakupArtists} />
-            <Route path="/pricing" component={Pricing} />
-            <Route path="/login" component={Login} />
-            <Route path="/signup" component={Signup} />
-            <Route path="*" component={HomePage} />
-            <Route path="/success" component={<Success />} />
-          </Switch>
+    <ApolloProvider client={client}>
+      <Router>
+        <div className="main-flex">
+          <Header />
+          <div className="flex-grow">
+            <Switch>
+              <Route path="/homepage" component={HomePage} />
+              <Route path="/profilepage" component={ProfilePage} />
+              <Route path="/breakupartists" component={BreakupArtists} />
+              <Route path="/pricing" component={Pricing} />
+              <Route path="/login" component={Login} />
+              <Route path="/signup" component={Signup} />
+              <Route path="*" component={HomePage} />
+              <Route path="/success" component={<Success />} />
+            </Switch>
+          </div>
+          {/* <Footer /> */}
         </div>
-        {/* <Footer /> */}
-      </div>
-    </Router>
+      </Router>
+    </ApolloProvider>
   );
 }
 
