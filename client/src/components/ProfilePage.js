@@ -62,9 +62,9 @@ function ProfilePage() {
           <ImStarEmpty/></p>
           <dl>
           <p class="p1"><dt>Specialties: </dt></p>
-              <dd> Acapella</dd>
-                <dd>Hand-written letter </dd>
-                  <dd> Playlist</dd>
+              <dd> -Acapella</dd>
+                <dd>-Hand-written letter </dd>
+                  <dd> -Playlist</dd>
                     </dl>
               </div>
 
@@ -83,9 +83,9 @@ function ProfilePage() {
           <ImStarFull/></p>
           <dl>
           <p class="p1"><dt>Specialties: </dt></p>
-              <dd> Acapella</dd>
-                <dd>Chocolate </dd>
-                  <dd> Email</dd>
+              <dd> -Acapella</dd>
+                <dd>-Chocolate </dd>
+                  <dd> -Email</dd>
                   </dl>
                 <p>
                   <button>Hire</button>
@@ -107,9 +107,9 @@ function ProfilePage() {
           <ImStarEmpty/></p>
           <dl>
           <p class="p1"><dt>Specialties: </dt></p>
-              <dd> Flowers</dd>
-                <dd>Hand-written letter </dd>
-                  <dd> Playlist</dd>
+              <dd> -Flowers</dd>
+                <dd>-Hand-written letter </dd>
+                  <dd> -Playlist</dd>
                     </dl>
                 <p>
                   <button>Hire</button>
