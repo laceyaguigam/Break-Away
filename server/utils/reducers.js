@@ -4,7 +4,6 @@ import {
   ADD_TO_CART,
   UPDATE_CART_QUANTITY,
   REMOVE_FROM_CART,
-  ADD_MULTIPLE_TO_CART,
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
@@ -24,12 +23,6 @@ export const reducer = (state, action) => {
         ...state,
         cartOpen: true,
         cart: [...state.cart, action.product],
-      };
-
-    case ADD_MULTIPLE_TO_CART:
-      return {
-        ...state,
-        cart: [...state.cart, ...action.products],
       };
 
     case UPDATE_CART_QUANTITY:
