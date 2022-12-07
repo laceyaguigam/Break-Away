@@ -41,7 +41,7 @@ function ProfilePage() {
  </tr>
  <tr>
    <td><MdRateReview/> Testimonials</td>
-   <td><MdAttachMoney>Become an Artist</td>
+   <td><MdAttachMoney/>Become an Artist</td>
  </tr>
 </table>
       
