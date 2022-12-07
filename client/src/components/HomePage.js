@@ -20,7 +20,7 @@ function HomePage() {
             style={{ width: "75%" }}
           />
           <p>
-            Do you want the breakup to be respestful?
+            Do you want the breakup to be respectful?
             <br />
             <br />
             We got you!
