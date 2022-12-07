@@ -7,7 +7,7 @@ const [state, dispatch] = useStoreContext();
 
 const { cart } = state;
 
-const addToCart = () => {
+const addToCart = (_id) => {
     const itemInCart = cart.find((cartItem) => cartItem._id === _id)
     if (itemInCart) {
       dispatch({
@@ -22,9 +22,9 @@ const addToCart = () => {
     } else {
       dispatch({
         type: ADD_TO_CART,
-        product: { ...item, purchaseQuantity: 1 }
+        product: { ...itemInCart, purchaseQuantity: 1 }
       });
-      idbPromise('cart', 'put', { ...item, purchaseQuantity: 1 });
+      idbPromise('cart', 'put', { ...itemInCart, purchaseQuantity: 1 });
     }
   }
 

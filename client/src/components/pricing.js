@@ -78,7 +78,7 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
-          <button onClick={addToCart(_id, 1)} id="basic">Add to cart</button>
+          <button onClick={() => addToCart(1)} id="basic">Add to cart</button>
         </div>
 
         <div className="columns">
