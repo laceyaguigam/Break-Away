@@ -9,16 +9,16 @@ function Header() {
       <img src={Logo} height={100} alt="Break Away" />
       <ul>
         <li>
-          <Link to="homepage">Home</Link>
+          <Link style={{textDecoration: "none"}} to="homepage">Home</Link>
         </li>
         <li>
-          <Link to="profilepage">Profile Page</Link>
+          <Link style={{textDecoration: "none"}} to="profilepage">Profile Page</Link>
         </li>
         <li>
-          <Link to="breakupartists">Breakup Artists</Link>
+          <Link style={{textDecoration: "none"}} to="breakupartists">Breakup Artists</Link>
         </li>
         <li>
-          <Link to="pricing">Pricing</Link>
+          <Link style={{textDecoration: "none"}} to="pricing">Pricing</Link>
         </li>
       </ul>
       <ul className="flex-row">
