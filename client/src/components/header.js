@@ -6,7 +6,7 @@ import Logo from "../assets/images/breakaway-logo.png";
 function Header() {
   return (
     <header className="fixed-header">
-      <img src={Logo} height={100} alt="Break Away" />
+      <img src={Logo} height={130} alt="Break Away" />
       <ul>
         <li>
           <Link style={{textDecoration: "none"}} to="homepage">Home</Link>
