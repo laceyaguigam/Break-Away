@@ -23,7 +23,7 @@
   display: flex;
   height: 180px;
   justify-content: space-between;
-  padding: 20px 25px 0px 25px;
+  padding: 0px 25px 0px 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #fcfcfc;
 }
@@ -44,11 +44,14 @@
   padding: 0px 25px 0px 25px;
 }
 
-.fixed-header li {
-  color: black;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-decoration: none;
+header .logo-navbar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 header ul {
   margin: 7px 0;
@@ -61,22 +64,30 @@ header ul li a {
 header ul li a:hover {
   background: rgb(96, 0, 0);
   color: #fcfcfc;
-  border-radius: 15px;
+  border-radius: 10px;
   text-shadow: none;
 }
-
-/* .fixed-header a:hover {
-  color: white;
-}
-
-.fixed-header a:visited {
-  color: black;
-} */
 
 header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.signup-login-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.signup-login-buttons {
+    display: flex;
+    padding: 10px;
+}
+
+.signup-login-buttons li {
+  padding: 10px;
+  list-style: none;
 }
 /* navbar ends*/
 
@@ -109,6 +120,10 @@ body {
   text-align: center;
   flex: 25%;
   padding: 0px 25px 0px 25px;
+}
+
+.row-home img {
+  border-radius: 15px;
 }
 /* homepage ends*/
 
@@ -155,6 +170,10 @@ button {
 
 button:hover {
   opacity: 0.7;
+}
+
+.p1 {
+  font-weight: bold;
 }
 /* breakup style ends */
 
