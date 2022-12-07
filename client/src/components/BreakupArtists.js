@@ -54,9 +54,9 @@ function BreakupArtists() {
           <ImStarEmpty/></p>
           <dl>
           <p class="p1"><dt>Specialties: </dt></p>
-              <dd> Acapella</dd>
-                <dd>Hand-written letter </dd>
-                  <dd> Playlist</dd>
+              <dd> -Acapella</dd>
+                <dd>-Hand-written letter </dd>
+                  <dd> -Playlist</dd>
                     </dl>
           <p>
             <button>Hire</button>
@@ -76,12 +76,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarFull/></p>
-          <p class="p1">Specialties: </p>
-           <p> <ul>
-              <li> Acapella</li>
-                <li>Chocolate </li>
-                  <li> Email</li>
-                    </ul> </p>
+          <dl>
+          <p class="p1"><dt>Specialties: </dt></p>
+              <dd> -Acapella</dd>
+                <dd>-Chocolate </dd>
+                  <dd> -Email</dd>
+                    </dl>
           <p>
             <button>Hire</button>
           </p>
@@ -100,12 +100,12 @@ function BreakupArtists() {
           <ImStarFull/>
           <ImStarFull/>
           <ImStarEmpty/></p>
-          <p class="p1">Specialties: </p>
-           <p> <ul>
-              <li> Flowers</li>
-                <li>Hand-written letter </li>
-                  <li> Playlist</li>
-                    </ul> </p>
+          <dl>
+          <p class="p1"><dt>Specialties: </dt></p>
+              <dd> -Flowers</dd>
+                <dd>-Hand-written letter </dd>
+                  <dd> -Playlist</dd>
+                    </dl>
           <p>
             <button>Hire</button>
           </p>
