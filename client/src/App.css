@@ -122,8 +122,26 @@ body {
   padding: 0px 25px 0px 25px;
 }
 
+.section-title {
+  padding: 10px 0px 0px 0px;
+}
+
+.section-title h2 {
+  color: #160c34;
+}
+
+.row-home {
+  padding: 0px 10px 10px 10px;
+}
+
 .row-home img {
   border-radius: 15px;
+}
+
+.row-home p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f4e4e4;
+
 }
 /* homepage ends*/
 
