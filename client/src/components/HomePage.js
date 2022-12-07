@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <div>
       <div className="section-title">
-        <h2>Ready to break-up but don't know how?</h2>
+        <h2>Ready to break up, but don't know how?</h2>
       </div>
       <br />
       <div className="row-home">
@@ -20,7 +20,7 @@ function HomePage() {
             style={{ width: "75%" }}
           />
           <p>
-            Do you want the breakup to be respestful?
+            Do you want the breakup to be respectful?
             <br />
             <br />
             We got you!
@@ -47,17 +47,17 @@ function HomePage() {
             Do you just want to take a break without closing the door forever?
             <br />
             <br />
-            Ding, ding we can do that too!
+            Ding, ding! We can do that too!
           </p>
         </div>
 
         <div className="column-home">
           <img src={RockPic} alt="placeholder text" style={{ width: "75%" }} />
           <p>
-            How ever you do want to do it, we're here for you!
+            However you do want to do it, we're here for you!
             <br />
             <br />
-            Checkout our pricing page.
+            Check out our pricing page.
           </p>
         </div>
       </div>
