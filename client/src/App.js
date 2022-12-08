@@ -1,6 +1,7 @@
 // import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {
   ApolloClient,
   InMemoryCache,
@@ -15,9 +16,13 @@ import HomePage from "./components/HomePage";
 import ProfilePage from "./components/ProfilePage";
 import BreakupArtists from "./components/BreakupArtists";
 import Pricing from "./components/pricing";
-import Success from "./Pages/Success";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+
+import Home from "./Pages/Home";
+import Success from "./Pages/Success";
+import OrderHistory from "./Pages/OrderHistory";
+import Detail from "./Pages/Detail";
 
 import "./App.css";
 
@@ -54,13 +59,17 @@ function App() {
           <div className="flex-grow">
             <Switch>
               <Route path="/homepage" component={HomePage} />
+              <Route path="/login" component={Login} />
+              <Route path="/signup" component={Signup} />
+              <Route path="/success" component={Success} />
+              <Route path="/orderhistory" component={OrderHistory} />
+              <Route path="/detail" component={Detail} />
               <Route path="/profilepage" component={ProfilePage} />
               <Route path="/breakupartists" component={BreakupArtists} />
               <Route path="/pricing" component={Pricing} />
-              <Route path="/login" component={Login} />
-              <Route path="/signup" component={Signup} />
+              <Route path="/home" component={Home} />
+
               <Route path="*" component={HomePage} />
-              <Route path="/success" component={<Success />} />
             </Switch>
           </div>
           {/* <Footer /> */}

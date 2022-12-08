@@ -9,6 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
+import addToCart from "./ProductItem";
 
 //modal variable for sign-up form
 
@@ -21,23 +22,21 @@ function Pricing() {
         <h2>Service Pricing</h2>
       </div>
       <p>
-        All packages are customizable for breakup style: polite, enraged,
-        respectful, sorrowful, dramatic, or anything else you desire or feel.
+        All packages are customizable form: polite, enraged, respectful,
+        sorrowful, dramatic or what ever you desire or feel.
       </p>
       <div className="pricing-body">
         <div className="columns">
           <ul className="price">
             <h4>Basic Breakup</h4>
-            <br/>
             <li>$5.99</li>
             <li>
               <BiRightArrow />
-              Simple, no physical contact.
+              Simple no physical contact.
               <BiLeftArrow />
             </li>
             <br />
-            <p>Some options include:</p>
-            <br />
+            <p>Some options are:</p>
             <li>
               <BsFillTelephoneFill />
               Phone call
@@ -59,12 +58,15 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
+          <button>
+            {/* <button onClick={() => addToCart(1)} id="basic"> */}
+            Add to cart
+          </button>
         </div>
 
         <div className="columns">
           <ul className="price">
             <h4>Sincere Farewell</h4>
-            <br/>
             <li>$29.99</li>
             <li>
               <BiRightArrow />
@@ -72,8 +74,7 @@ function Pricing() {
               <BiLeftArrow />
             </li>
             <br />
-            <p>Some options include:</p>
-            <br />
+            <p>Some options are:</p>
             <li>
               <GiFlowers />
               Flowers
@@ -95,12 +96,15 @@ function Pricing() {
               Playlist of sad songs
             </li>
           </ul>
+          <button>
+            {/* <button onClick={addToCart(2)} id="sincere"> */}
+            Add to cart
+          </button>
         </div>
 
         <div className="columns">
           <ul className="price">
             <h4>Epic Sendoff</h4>
-            <br/>
             <li>up to $1,000</li>
             <li>
               <BiRightArrow />
@@ -119,6 +123,10 @@ function Pricing() {
               federal and state law.
             </li>
           </ul>
+          <button>
+            {/* <button onClick={addToCart(3)} id="epic"> */}
+            Add to cart
+          </button>
         </div>
       </div>
     </div>
