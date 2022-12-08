@@ -331,11 +331,12 @@ p {
   font-size: 150%;
 }
 /* profile page-Breakup Artists starts */
+
 .row-breakup2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto;
+  margin-top: 10px;
   padding: 10px 5px 10px 5px;
 }
 
