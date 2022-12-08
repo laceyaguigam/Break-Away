@@ -34,9 +34,6 @@ function BreakupArtists() {
                 <dd>-FB Message </dd>
                   <dd> -Flowers</dd>
                   </dl>
-          <p>
-            <button>Hire</button>
-          </p>
         </div>
 
         <div class="column-breakup">
@@ -58,9 +55,6 @@ function BreakupArtists() {
                 <dd>-Hand-written letter </dd>
                   <dd> -Playlist</dd>
                     </dl>
-          <p>
-            <button>Hire</button>
-          </p>
         </div>
 
         <div class="column-breakup">
@@ -82,9 +76,6 @@ function BreakupArtists() {
                 <dd>-Chocolate </dd>
                   <dd> -Email</dd>
                     </dl>
-          <p>
-            <button>Hire</button>
-          </p>
         </div>
 
         <div class="column-breakup">
@@ -106,9 +97,6 @@ function BreakupArtists() {
                 <dd>-Hand-written letter </dd>
                   <dd> -Playlist</dd>
                     </dl>
-          <p>
-            <button>Hire</button>
-          </p>
         </div>
       </div>
     </div>
