@@ -2,7 +2,7 @@ const { AuthenticationError } = require("apollo-server-express");
 const { User, Product, Category, Order } = require("../models");
 const { signToken } = require("../utils/auth");
 const stripe = require("stripe")("sk_test_4eC39HqLyjWDarjtT1zdp7dc"); //need to change enviornment variable - process.env.STRIPE_KEY //
-
+ 
 const resolvers = {
   Query: {
     categories: async () => {
@@ -110,15 +110,15 @@ const resolvers = {
 
       throw new AuthenticationError("Not logged in");
     },
-    updateUser: async (parent, args, context) => {
-      if (context.user) {
-        return await User.findByIdAndUpdate(context.user._id, args, {
-          new: true,
-        });
-      }
+    // updateUser: async (parent, args, context) => {
+    //   if (context.user) {
+    //     return await User.findByIdAndUpdate(context.user._id, args, {
+    //       new: true,
+    //     });
+    //   }
 
-      throw new AuthenticationError("Not logged in");
-    },
+    //   throw new AuthenticationError("Not logged in");
+    // },
     updateProduct: async (parent, { _id, quantity }) => {
       const decrement = Math.abs(quantity) * -1;
 
