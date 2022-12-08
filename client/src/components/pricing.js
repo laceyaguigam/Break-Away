@@ -9,13 +9,19 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
-import addToCart from './ProductItem'
+import addToCart from '../components/ProductItem';
+import { useStoreContext } from '../utils/GlobalState';
+import {  
+  UPDATE_PRODUCTS,
+} from '../utils/actions';
+import { QUERY_PRODUCTS } from '../utils/queries';
+import { idbPromise } from '../utils/helpers';
 
 //modal variable for sign-up form
 
 //BTN NEEDS COMMAND TO SUBMIT FORM
 
-//define products array, here or in GlobalState?? as a prop? no idea syntax? need useState hook??
+// //define products array, here or in GlobalState?? as a prop? no idea syntax? need useState hook??
 const products = () => {
   [{
     _id: 1,
@@ -36,7 +42,44 @@ const products = () => {
 
 
 function Pricing() {
+  const [state, dispatch] = useStoreContext();
+  const { id } = useParams();
+
+  const [currentProduct, setCurrentProduct] = useState({});
+
+  const { loading, data } = useQuery(QUERY_PRODUCTS);
+
+  const { products, cart } = state;
+
+  useEffect(() => {
+    // already in global store
+    if (products.length) {
+      setCurrentProduct(products.find((product) => product._id === id));
+    }
+    // retrieved from server
+    else if (data) {
+      dispatch({
+        type: UPDATE_PRODUCTS,
+        products: data.products,
+      });
+
+      data.products.forEach((product) => {
+        idbPromise('products', 'put', product);
+      });
+    }
+    // get cache from idb
+    else if (!loading) {
+      idbPromise('products', 'get').then((indexedProducts) => {
+        dispatch({
+          type: UPDATE_PRODUCTS,
+          products: indexedProducts,
+        });
+      });
+    }
+  }, [products, data, loading, dispatch, id]);
+
   return (
+    <>
     <div>
       <div className="pricing-header">
         <h2>Service Pricing</h2>
@@ -78,7 +121,8 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
-          <button onClick={() => addToCart(1)} id="basic">Add to cart</button>
+          <button onClick={addToCart(product._id)}>Add to Cart</button>
+          {/* <button onClick={() => addToCart(1)} id="basic">Add to cart</button> */}
         </div>
 
         <div className="columns">
@@ -113,7 +157,8 @@ function Pricing() {
               Playlist of sad songs
             </li>
           </ul>
-          <button onClick={addToCart(_id, 2)} id="sincere">Add to cart</button>
+          <button onClick={addToCart(product._id)}>Add to Cart</button>
+          {/* <button onClick={addToCart(_id, 2)} id="sincere">Add to cart</button> */}
         </div>
 
         <div className="columns">
@@ -137,10 +182,12 @@ function Pricing() {
               federal and state law.
             </li>
           </ul>
-          <button onClick={addToCart(_id, 3)} id="epic">Add to cart</button>
+          <button onClick={addToCart(product._id)}>Add to Cart</button>
+          {/* <button onClick={addToCart(_id, 3)} id="epic">Add to cart</button> */}
         </div>
       </div>
     </div>
+    </>
   );
 }
 
