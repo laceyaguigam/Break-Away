@@ -9,7 +9,6 @@ export const QUERY_PRODUCTS = gql`
       description
       price
       quantity
-      image
       category {
         _id
       }
@@ -56,8 +55,9 @@ export const QUERY_CATEGORIES = gql`
 export const QUERY_USER = gql`
   {
     user {
-      firstName
-      lastName
+      _id
+      username
+      email
       orders {
         _id
         purchaseDate
@@ -67,7 +67,6 @@ export const QUERY_USER = gql`
           description
           price
           quantity
-          image
         }
       }
     }
