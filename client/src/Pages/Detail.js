@@ -103,11 +103,6 @@ function Detail() {
               Remove from Cart
             </button>
           </p>
-
-          <img
-            src={`/images/${currentProduct.image}`}
-            alt={currentProduct.name}
-          />
         </div>
       ) : null}
       {/* {loading ? <img src={Spinner} alt="loading" /> : null} */}
