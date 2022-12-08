@@ -16,25 +16,6 @@ import { TbPlaylist } from "react-icons/tb";
 
 //BTN NEEDS COMMAND TO SUBMIT FORM
 
-// //define products array, here or in GlobalState?? as a prop? no idea syntax? need useState hook??
-// const products = () => {
-//   [{
-//     _id: 1,
-//     name: 'basic',
-//     price: '5.99'
-//   },
-//   {
-//     _id: 2, 
-//     name: 'sincere',
-//     price: '29.99'
-//   },
-//   {
-//     _id: 3,
-//     name: 'epic',
-//     price: '1000.00'
-//   }]
-// }
-
 
 function Pricing() {
   const [state, dispatch] = useStoreContext();
@@ -61,41 +42,6 @@ function Pricing() {
       idbPromise("cart", "put", { ...itemInCart, purchaseQuantity: 1 });
     }
   };
-  // const [state, dispatch] = useStoreContext();
-  // const { id } = useParams();
-
-  // const [currentProduct, setCurrentProduct] = useState({});
-
-  // const { loading, data } = useQuery(QUERY_PRODUCTS);
-
-  // const { products, cart } = state;
-
-  // useEffect(() => {
-  //   // already in global store
-  //   if (products.length) {
-  //     setCurrentProduct(products.find((product) => product._id === id));
-  //   }
-  //   // retrieved from server
-  //   else if (data) {
-  //     dispatch({
-  //       type: UPDATE_PRODUCTS,
-  //       products: data.products,
-  //     });
-
-  //     data.products.forEach((product) => {
-  //       idbPromise('products', 'put', product);
-  //     });
-  //   }
-  //   // get cache from idb
-  //   else if (!loading) {
-  //     idbPromise('products', 'get').then((indexedProducts) => {
-  //       dispatch({
-  //         type: UPDATE_PRODUCTS,
-  //         products: indexedProducts,
-  //       });
-  //     });
-  //   }
-  // }, [products, data, loading, dispatch, id]);
 
   return (
     <>
@@ -140,7 +86,7 @@ function Pricing() {
                 Whatsapp message
               </li>
             </ul>
-            <button onClick={() => addToCart({ name: 'basic', price: '50' })} id="basic">
+            <button onClick={() => addToCart({ name: 'Basic' })} id="basic">
               Add to cart
             </button>
           </div>
@@ -177,8 +123,7 @@ function Pricing() {
                 Playlist of sad songs
               </li>
             </ul>
-            <button>
-              {/* <button onClick={addToCart(2)} id="sincere"> */}
+            <button onClick={() => addToCart({ name: 'Sincere' })} id="sincere">
               Add to cart
             </button>
           </div>
@@ -204,8 +149,7 @@ function Pricing() {
                 federal and state law.
               </li>
             </ul>
-            <button>
-              {/* <button onClick={addToCart(3)} id="epic"> */}
+            <button onClick={() => addToCart({ name: 'Epic' })} id="epic">
               Add to cart
             </button>
           </div>
