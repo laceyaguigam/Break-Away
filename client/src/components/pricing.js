@@ -121,8 +121,10 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
-          <button onClick={addToCart(product._id)}>Add to Cart</button>
-          {/* <button onClick={() => addToCart(1)} id="basic">Add to cart</button> */}
+          <button>
+            {/* <button onClick={() => addToCart(1)} id="basic"> */}
+            Add to cart
+          </button>
         </div>
 
         <div className="columns">
@@ -157,8 +159,10 @@ function Pricing() {
               Playlist of sad songs
             </li>
           </ul>
-          <button onClick={addToCart(product._id)}>Add to Cart</button>
-          {/* <button onClick={addToCart(_id, 2)} id="sincere">Add to cart</button> */}
+          <button>
+            {/* <button onClick={addToCart(2)} id="sincere"> */}
+            Add to cart
+          </button>
         </div>
 
         <div className="columns">
@@ -182,8 +186,10 @@ function Pricing() {
               federal and state law.
             </li>
           </ul>
-          <button onClick={addToCart(product._id)}>Add to Cart</button>
-          {/* <button onClick={addToCart(_id, 3)} id="epic">Add to cart</button> */}
+          <button>
+            {/* <button onClick={addToCart(3)} id="epic"> */}
+            Add to cart
+          </button>
         </div>
       </div>
     </div>
