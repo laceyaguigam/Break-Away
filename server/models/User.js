@@ -4,6 +4,11 @@ const Order = require("./Order");
 
 const userSchema = new Schema(
   {
+    name: {
+      type: String,
+      required: true,
+      unique: false,
+    },
     username: {
       type: String,
       required: true,

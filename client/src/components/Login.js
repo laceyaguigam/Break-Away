@@ -1,26 +1,57 @@
-// import React from "react";
+import React, { useState } from "react";
+import { useMutation } from "@apollo/client";
+import { LOGIN_USER } from "../utils/mutations";
+import Auth from "../utils/auth";
 
-// import React, { useState, useEffect } from "react";
-// import { LOGIN_USER, ADD_USER } from "../utils/mutations";
-// import { useMutation } from "@apollo/client";
-// import Auth from "../utils/auth";
+function Login(props) {
+  const [formState, setFormState] = useState({
+    email: "",
+    password: "",
+  });
+  const [login] = useMutation(LOGIN_USER);
 
-// import React, { Component, useState, useEffect } from "react";
-// import LoginModal from "react-login-modal";
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const mutationResponse = await login({
+      variables: {
+        email: formState.email,
+        password: formState.password,
+      },
+    });
+    const token = mutationResponse.data.login.token;
+    Auth.login(token);
+  };
 
-import React from "react";
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
 
-function Login() {
   return (
     <div className="signup">
-      <form>
-        <label for="username"></label>
-        <input type="text" id="uname" name="username" placeholder="username" />
+      <form onSubmit={handleFormSubmit}>
+        <label htmlFor="username"></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="username"
+          onChange={handleChange}
+        />
 
-        <label for="password"></label>
-        <input type="text" id="password" name="email" placeholder="password" />
+        <label htmlFor="password"></label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="*******"
+          onChange={handleChange}
+        />
 
-        <input type="submit" value="Login" />
+        <button type="submit">Login</button>
       </form>
     </div>
   );

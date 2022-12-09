@@ -1,36 +1,81 @@
-import React from "react";
+import React, { useState } from "react";
+import { useMutation } from "@apollo/client";
+import Auth from "../utils/auth";
+import { ADD_USER } from "../utils/mutations";
 
-function Signup() {
+function Signup(props) {
+  const [formState, setFormState] = useState({
+    name: "",
+    username: "",
+    email: "",
+    password: "",
+  });
+  const [addUser] = useMutation(ADD_USER);
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+    const mutationResponse = await addUser({
+      variables: {
+        name: formState.name,
+        username: formState.username,
+        email: formState.email,
+        password: formState.password,
+      },
+    });
+    const token = mutationResponse.data.addUser.token;
+    Auth.login(token);
+  };
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormState({
+      ...formState,
+      [name]: value,
+    });
+  };
+
   return (
-    <section>
-      <div className="signup">
-        <form>
-          <label for="name"></label>
-          <input type="text" id="name" name="name" placeholder="name" />
+    <div className="signup">
+      <form onSubmit={handleFormSubmit}>
+        <label htmlFor="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="name"
+          onChange={handleChange}
+        />
 
-          <label for="email"></label>
-          <input type="text" id="email" name="email" placeholder="email" />
+        <label htmlFor="email"></label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="email"
+          onChange={handleChange}
+        />
 
-          <label for="username"></label>
-          <input
-            type="text"
-            id="uname"
-            name="username"
-            placeholder="username"
-          />
+        <label htmlFor="username"></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="username"
+          onChange={handleChange}
+        />
 
-          <label for="password"></label>
-          <input
-            type="text"
-            id="password"
-            name="email"
-            placeholder="password"
-          />
+        <label htmlFor="password"></label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="*******"
+          onChange={handleChange}
+        />
 
-          <input type="submit" value="Signup" />
-        </form>
-      </div>
-    </section>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   );
 }
 

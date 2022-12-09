@@ -32,11 +32,6 @@ function Header() {
                 </Link>
               </li>
               <li>
-                <Link style={{ textDecoration: "none" }} to="profilepage">
-                  Profile Page
-                </Link>
-              </li>
-              <li>
                 <Link style={{ textDecoration: "none" }} to="breakupartists">
                   Breakup Artists
                 </Link>
