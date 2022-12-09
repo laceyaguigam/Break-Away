@@ -1,7 +1,7 @@
 {
   "name": "break-away",
   "version": "0.1.0",
-  "homepage": "https://radiant-brook-23535.herokuapp.com/",
+  "homepage": "https://breakaway.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.1",
