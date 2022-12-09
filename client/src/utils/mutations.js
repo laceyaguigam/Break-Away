@@ -51,3 +51,26 @@ export const ADD_USER = gql`
     }
   }
 `;
+
+export const HIRE_PRODUCTS = gql`
+  mutation hireProduct($category: ID) {
+    product(category: $category) {
+      _id
+      name
+      description
+      price
+      quantity
+      category {
+        _id
+      }
+    }
+  }
+`;
+
+export const HIRE_CHECKOUT = gql`
+  mutation hireCheckout($product: [ID]!) {
+    checkout(product: $product) {
+      session
+    }
+  }
+`;

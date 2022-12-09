@@ -108,6 +108,10 @@ const resolvers = {
         return order;
       }
 
+      hireProduct: async (parent, {  }) => {
+        
+      }
+
       throw new AuthenticationError("Not logged in");
     },
     // updateUser: async (parent, args, context) => {
