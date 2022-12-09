@@ -1,5 +1,7 @@
 import React from "react";
 import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
+import { HIRE_PRODUCT } from '../utils/mutations';
+import { hireProduct } from '../../../server/schemas/resolvers';
 import {
   BsFillTelephoneFill,
   BsFillChatRightTextFill,
@@ -9,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
-import addToCart from "./ProductItem";
+// import addToCart from "./ProductItem";
 
 //modal variable for sign-up form
 
@@ -58,9 +60,8 @@ function Pricing() {
               Whatsapp message
             </li>
           </ul>
-          <button>
-            {/* <button onClick={() => addToCart(1)} id="basic"> */}
-            Add to cart
+          <button onClick={hireProduct()} id="basic">
+            Hire
           </button>
         </div>
 
@@ -96,9 +97,8 @@ function Pricing() {
               Playlist of sad songs
             </li>
           </ul>
-          <button>
-            {/* <button onClick={addToCart(2)} id="sincere"> */}
-            Add to cart
+          <button onClick={hireProduct()} id="sincere">
+            Hire
           </button>
         </div>
 
@@ -123,9 +123,8 @@ function Pricing() {
               federal and state law.
             </li>
           </ul>
-          <button>
-            {/* <button onClick={addToCart(3)} id="epic"> */}
-            Add to cart
+          <button onClick={hireProduct()} id="epic">
+            Hire
           </button>
         </div>
       </div>
