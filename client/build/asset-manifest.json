@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.371e72a9.js",
-    "static/js/512.0bfb520c.chunk.js": "/static/js/512.0bfb520c.chunk.js",
+    "main.css": "/static/css/main.1087d58f.css",
+    "main.js": "/static/js/main.38d8af26.js",
+    "static/js/522.e9a77a5a.chunk.js": "/static/js/522.e9a77a5a.chunk.js",
+    "static/media/burnbaby.jpg": "/static/media/burnbaby.81ad4392073153448f7d.jpg",
+    "static/media/aloneonrock.jpg": "/static/media/aloneonrock.8285f0f401d8b486b10f.jpg",
+    "static/media/burningpicture.jpg": "/static/media/burningpicture.3f00f05cf8c1b6b53ff2.jpg",
+    "static/media/cassie.jpg": "/static/media/cassie.96d7e46a6c0ffdbcec49.jpg",
+    "static/media/liz.jpg": "/static/media/liz.4ede0a2a8243e25acd00.jpg",
+    "static/media/sarah.jpg": "/static/media/sarah.5be975369f8bbd40a81f.jpg",
+    "static/media/brokenheart.jpg": "/static/media/brokenheart.94944062f9b3ce430e78.jpg",
+    "static/media/kyle.jpg": "/static/media/kyle.15535c72d03eac4dab11.jpg",
+    "static/media/alex.jpg": "/static/media/alex.a0cbcf04323e9aadff92.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.689d9a07cc3c3eddc116.gif",
+    "static/media/breakaway-logo.png": "/static/media/breakaway-logo.0a144577e9128f76b949.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.371e72a9.js.map": "/static/js/main.371e72a9.js.map",
-    "512.0bfb520c.chunk.js.map": "/static/js/512.0bfb520c.chunk.js.map"
+    "main.1087d58f.css.map": "/static/css/main.1087d58f.css.map",
+    "main.38d8af26.js.map": "/static/js/main.38d8af26.js.map",
+    "522.e9a77a5a.chunk.js.map": "/static/js/522.e9a77a5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.371e72a9.js"
+    "static/css/main.1087d58f.css",
+    "static/js/main.38d8af26.js"
   ]
 }
