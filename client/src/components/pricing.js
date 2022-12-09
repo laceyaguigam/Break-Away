@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger, FaPoop } from "react-icons/fa";
 import { GiFlowers, GiChocolateBar, GiNotebook } from "react-icons/gi";
 import { TbPlaylist } from "react-icons/tb";
-import addToCart from "./ProductItem";
+// import addToCart from "./ProductItem";
 
 //modal variable for sign-up form
 

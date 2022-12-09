@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1087d58f.css",
-    "main.js": "/static/js/main.38d8af26.js",
+    "main.js": "/static/js/main.ff0f2b4a.js",
     "static/js/522.e9a77a5a.chunk.js": "/static/js/522.e9a77a5a.chunk.js",
     "static/media/burnbaby.jpg": "/static/media/burnbaby.81ad4392073153448f7d.jpg",
     "static/media/aloneonrock.jpg": "/static/media/aloneonrock.8285f0f401d8b486b10f.jpg",
@@ -16,11 +16,11 @@
     "static/media/breakaway-logo.png": "/static/media/breakaway-logo.0a144577e9128f76b949.png",
     "index.html": "/index.html",
     "main.1087d58f.css.map": "/static/css/main.1087d58f.css.map",
-    "main.38d8af26.js.map": "/static/js/main.38d8af26.js.map",
+    "main.ff0f2b4a.js.map": "/static/js/main.ff0f2b4a.js.map",
     "522.e9a77a5a.chunk.js.map": "/static/js/522.e9a77a5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1087d58f.css",
-    "static/js/main.38d8af26.js"
+    "static/js/main.ff0f2b4a.js"
   ]
 }

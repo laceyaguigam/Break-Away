@@ -3,7 +3,7 @@ import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 
-import { StoreProvider } from "../utils/GlobalState";
+// import { StoreProvider } from "../utils/GlobalState";
 
 const Home = () => {
   return (
