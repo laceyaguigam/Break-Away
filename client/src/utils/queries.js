@@ -27,7 +27,7 @@ export const QUERY_CHECKOUT = gql`
 
 //query all products
 export const QUERY_ALL_PRODUCTS = gql`
-  {
+  query getAllProducts {
     products {
       _id
       name
