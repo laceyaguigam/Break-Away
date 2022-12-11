@@ -33,12 +33,12 @@ function Login(props) {
   return (
     <div className="signup">
       <form onSubmit={handleFormSubmit}>
-        <label htmlFor="username"></label>
+        <label htmlFor="email"></label>
         <input
           type="text"
-          id="username"
-          name="username"
-          placeholder="username"
+          id="email"
+          name="email"
+          placeholder="email"
           onChange={handleChange}
         />
 
