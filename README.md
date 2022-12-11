@@ -12,7 +12,7 @@ This MERN stack application provides functionality for Break Away users.
 
 ## Deployed app
 
-Please explore [our project here](link).
+Please explore [our project here](https://breakaway.herokuapp.com/).
 
 ## Github
 
