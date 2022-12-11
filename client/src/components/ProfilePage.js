@@ -14,7 +14,14 @@ import { AiOutlineCalendar } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
 import { MdRateReview } from "react-icons/md";
 
+import Auth from "../utils/auth";
+
 function ProfilePage() {
+  const logout = (event) => {
+    event.preventDefault();
+    Auth.logout();
+  };
+
   return (
     <div>
       <div className="split left">
@@ -69,6 +76,11 @@ function ProfilePage() {
             </tr>
           </table>
         </div>
+        <br />
+        <br />
+        <p>
+          <button onClick={logout}>Logout</button>
+        </p>
       </div>
 
       <div className="split right">
