@@ -1,6 +1,6 @@
 # Break Away
 
-![screenshot of app](/src/assets/images/react-portfolio-SS.jpg)
+![screenshot of app](./client/src/assets/images/break-away-SS.png)
 
 ## Description
 
