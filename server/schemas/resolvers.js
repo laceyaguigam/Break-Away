@@ -26,6 +26,9 @@ const resolvers = {
     product: async (parent, { _id }) => {
       return await Product.findById(_id).populate("category");
     },
+    productByName: async (parent, { name }) => {
+      return await Product.findOne({ name });
+    },
     user: async (parent, args, context) => {
       if (context.user) {
         const user = await User.findById(context.user._id).populate({
@@ -119,15 +122,15 @@ const resolvers = {
 
     //   throw new AuthenticationError("Not logged in");
     // },
-    updateProduct: async (parent, { _id, quantity }) => {
-      const decrement = Math.abs(quantity) * -1;
+    // updateProduct: async (parent, { _id, quantity }) => {
+    //   const decrement = Math.abs(quantity) * -1;
 
-      return await Product.findByIdAndUpdate(
-        _id,
-        { $inc: { quantity: decrement } },
-        { new: true }
-      );
-    },
+    //   return await Product.findByIdAndUpdate(
+    //     _id,
+    //     { $inc: { quantity: decrement } },
+    //     { new: true }
+    //   );
+    // },
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
 

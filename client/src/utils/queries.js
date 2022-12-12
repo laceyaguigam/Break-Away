@@ -8,7 +8,20 @@ export const QUERY_PRODUCTS = gql`
       name
       description
       price
-      quantity
+      category {
+        _id
+      }
+    }
+  }
+`;
+
+export const GET_PRODUCT_BY_NAME = gql`
+  query ProductByName($name: String) {
+    productByName(name: $name) {
+      _id
+      name
+      description
+      price
       category {
         _id
       }
@@ -33,7 +46,6 @@ export const QUERY_ALL_PRODUCTS = gql`
       name
       description
       price
-      quantity
       category {
         name
       }

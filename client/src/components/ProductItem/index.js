@@ -3,7 +3,6 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 import { Link } from "react-router-dom";
-import "../Cart/style.css";
 
 //do we need import { products } from "../pricing"
 

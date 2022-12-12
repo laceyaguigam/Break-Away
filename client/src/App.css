@@ -181,6 +181,7 @@ body {
   text-align: center;
   flex: 5%;
   padding: 0px 25px 0px 25px;
+  color: white;
 }
 
 .column img {
@@ -188,7 +189,15 @@ body {
   width: 30%;
 }
 
-button {
+.title {
+  color: black;
+}
+
+.stars {
+  color: yellow;
+}
+
+/* button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -199,14 +208,21 @@ button {
   cursor: pointer;
   width: 50%;
   font-size: 18px;
-}
+} */
 
-button:hover {
+/* button:hover {
   opacity: 0.7;
-}
+} */
 
 .p1 {
   font-weight: bold;
+  color: black;
+  background-image: linear-gradient(
+    180deg,
+    #f4e4e4 0%,
+    #8c1046 88%,
+    #510d3e 100%
+  );
 }
 /* breakup artists style ends */
 
@@ -235,7 +251,7 @@ p {
 .columns {
   text-align: center;
   flex: 5%;
-  padding: 10px 15px 20px 15px;
+  padding: 10px 5px 5px 2px;
   margin: 15px 50px 15px 50px;
   border: 4px solid #160c34;
   border-radius: 10%;
@@ -243,15 +259,39 @@ p {
   color: #8c1046;
 }
 
-.price ul {
-  display: flex;
-  list-style: none;
-  padding: 0px 25px 0px 25px;
+.price p {
+  color: black;
 }
 
-.price li {
-  color: #160c34;
-  list-style-type: none;
+.listPrice {
+  color: blue;
+  font-weight: bold;
+}
+
+.options {
+  text-decoration: underline;
+}
+
+.price form {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+.addToCart button {
+  background-color: #f1b6b6;
+  color: #510d3e;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.addToCart button:hover {
+  background-color: rgb(200, 197, 197);
+}
+
+.note {
+  font-size: 0.7em;
 }
 /* pricing ends */
 
@@ -360,7 +400,7 @@ select {
   text-align: center;
 }
 
-.signup input[type="submit"] {
+.signup button[type="submit"] {
   width: 70%;
   background-color: #f1b6b6;
   color: #510d3e;
@@ -370,7 +410,7 @@ select {
   border-radius: 4px;
 }
 
-.signup input[type="submit"]:hover {
+.signup button[type="submit"]:hover {
   background-color: rgb(200, 197, 197);
 }
 /* login ends*/

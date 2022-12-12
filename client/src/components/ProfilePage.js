@@ -7,12 +7,22 @@ import img6 from "../assets/images/sarah.jpg";
 import img7 from "../assets/images/liz.jpg";
 
 import { ImStarEmpty, ImStarFull } from "react-icons/im";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 import { FaBirthdayCake } from "react-icons/fa";
 import { GrMapLocation } from "react-icons/gr";
 import { SlEnvolope } from "react-icons/sl";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { MdAttachMoney } from "react-icons/md";
 import { MdRateReview } from "react-icons/md";
+import { FaFacebookMessenger } from "react-icons/fa";
+import {
+  GiFlowers,
+  GiChocolateBar,
+  GiNotebook,
+  GiMusicalNotes,
+} from "react-icons/gi";
+import { TbPlaylist } from "react-icons/tb";
 
 import Auth from "../utils/auth";
 
@@ -98,23 +108,34 @@ function ProfilePage() {
               <h1>Alex</h1>
               <p class="title">
                 Rating:
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarEmpty />
-                <ImStarEmpty />
+                <label className="stars">
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarEmpty />
+                  <ImStarEmpty />
+                </label>
               </p>
               <dl>
                 <p class="p1">
                   <dt>Specialties: </dt>
                 </p>
-                <dd> -Phone Call</dd>
-                <dd>-FB Message </dd>
-                <dd> -Flowers</dd>
+                <dd>
+                  <BsFillTelephoneFill />
+                  Phone Call
+                </dd>
+                <dd>
+                  <FaFacebookMessenger />
+                  FB Message
+                </dd>
+                <dd>
+                  <GiFlowers />
+                  Flowers
+                </dd>
               </dl>
-              <p>
+              {/* <p>
                 <button>Hire</button>
-              </p>
+              </p> */}
             </div>
 
             <div class="column-breakup2">
@@ -126,23 +147,34 @@ function ProfilePage() {
               <h1>Cassie</h1>
               <p class="title">
                 Rating:
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarEmpty />
+                <label className="stars">
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarEmpty />
+                  <ImStarEmpty />
+                </label>
               </p>
               <dl>
                 <p class="p1">
                   <dt>Specialties: </dt>
                 </p>
-                <dd> -Acapella</dd>
-                <dd>-Hand-written letter </dd>
-                <dd> -Playlist</dd>
+                <dd>
+                  <GiMusicalNotes />
+                  Acapella
+                </dd>
+                <dd>
+                  <GiNotebook />
+                  Hand-written letter
+                </dd>
+                <dd>
+                  <TbPlaylist />
+                  Playlist
+                </dd>
               </dl>
-              <p>
-                <button>Hire</button>
-              </p>
+              {/* <p>
+            <button>Hire</button>
+          </p> */}
             </div>
 
             <div class="column-breakup2">
@@ -154,23 +186,34 @@ function ProfilePage() {
               <h1>Kyle</h1>
               <p class="title">
                 Rating:
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
+                <label className="stars">
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarEmpty />
+                  <ImStarEmpty />
+                </label>
               </p>
               <dl>
                 <p class="p1">
                   <dt>Specialties: </dt>
                 </p>
-                <dd> -Acapella</dd>
-                <dd>-Chocolate </dd>
-                <dd> -Email</dd>
+                <dd>
+                  <GiMusicalNotes />
+                  Acapella
+                </dd>
+                <dd>
+                  <GiChocolateBar />
+                  Chocolates
+                </dd>
+                <dd>
+                  <MdEmail />
+                  Email
+                </dd>
               </dl>
-              <p>
-                <button>Hire</button>
-              </p>
+              {/* <p>
+            <button>Hire</button>
+          </p> */}
             </div>
 
             <div class="column-breakup2">
@@ -182,23 +225,34 @@ function ProfilePage() {
               <h1>Sarah</h1>
               <p class="title">
                 Rating:
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarFull />
-                <ImStarEmpty />
+                <label className="stars">
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarFull />
+                  <ImStarEmpty />
+                  <ImStarEmpty />
+                </label>
               </p>
               <dl>
                 <p class="p1">
                   <dt>Specialties: </dt>
                 </p>
-                <dd> -Flowers</dd>
-                <dd>-Hand-written letter </dd>
-                <dd> -Playlist</dd>
+                <dd>
+                  <GiFlowers />
+                  Flowers
+                </dd>
+                <dd>
+                  <GiNotebook />
+                  Hand-written letter{" "}
+                </dd>
+                <dd>
+                  <TbPlaylist />
+                  Playlist
+                </dd>
               </dl>
-              <p>
-                <button>Hire</button>
-              </p>
+              {/* <p>
+            <button>Hire</button>
+          </p> */}
             </div>
           </div>
         </div>

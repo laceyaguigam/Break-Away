@@ -35,8 +35,8 @@ function Signup(props) {
   };
 
   return (
-    <div className="signup">
-      <form onSubmit={handleFormSubmit}>
+    <div>
+      <form onSubmit={handleFormSubmit} className="signup">
         <label htmlFor="name"></label>
         <input
           type="text"
