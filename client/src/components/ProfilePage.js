@@ -1,6 +1,6 @@
 import React from "react";
 
-import img1 from "../assets/images/alex.jpg";
+import img1 from "../assets/images/alex2.jpg";
 import img3 from "../assets/images/cassie.jpg";
 import img5 from "../assets/images/kyle.jpg";
 import img6 from "../assets/images/sarah.jpg";
@@ -89,7 +89,9 @@ function ProfilePage() {
         <br />
         <br />
         <p>
-          <button onClick={logout}>Logout</button>
+          <button onClick={logout} className="logout">
+            Logout
+          </button>
         </p>
       </div>
 
@@ -102,7 +104,7 @@ function ProfilePage() {
               <img
                 src={img1}
                 alt="photograph of Sarah the breakup artist"
-                style={{ width: "75%" }}
+                style={{ width: "60%" }}
               />
 
               <h1>Alex</h1>

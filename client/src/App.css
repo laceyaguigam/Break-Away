@@ -337,12 +337,27 @@ welcome {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  color: black;
 }
 /* Style the image inside the centered container, on left side */
 .centered img {
   width: 150px;
   border-radius: 50%;
   margin: auto;
+}
+
+/* logout button on profilepage -- left side */
+.logout {
+  width: 30%;
+  background-color: #f1b6b6;
+  color: #510d3e;
+  /* padding: 14px 20px; */
+  /* margin: 8px 0; */
+  border: none;
+}
+
+.logout:hover {
+  background-color: rgb(200, 197, 197);
 }
 
 /* Control the right side */
